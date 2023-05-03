@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Layout component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-yp8pcc"
+        style="height: 100vh;"
+      >
+        <aside
+          class="ant-layout-sider ant-layout-sider-dark"
+          style="text-align: center; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
+        >
+          <div
+            class="ant-layout-sider-children"
+          >
+            Sider
+          </div>
+        </aside>
+        <section
+          class="ant-layout css-dev-only-do-not-override-yp8pcc"
+        >
+          <header
+            class="ant-layout-header css-dev-only-do-not-override-yp8pcc"
+            style="text-align: center; height: 64px; padding-inline: 50px; line-height: 64px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
+          >
+            Header
+          </header>
+          <main
+            class="ant-layout-content css-dev-only-do-not-override-yp8pcc"
+            style="text-align: center; min-height: 120px; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
+          >
+            <div>
+              Content
+            </div>
+          </main>
+          <footer
+            class="ant-layout-footer css-dev-only-do-not-override-yp8pcc"
+            style="text-align: center; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
+          >
+            Footer
+          </footer>
+        </section>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-yp8pcc"
+      style="height: 100vh;"
+    >
+      <aside
+        class="ant-layout-sider ant-layout-sider-dark"
+        style="text-align: center; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
+      >
+        <div
+          class="ant-layout-sider-children"
+        >
+          Sider
+        </div>
+      </aside>
+      <section
+        class="ant-layout css-dev-only-do-not-override-yp8pcc"
+      >
+        <header
+          class="ant-layout-header css-dev-only-do-not-override-yp8pcc"
+          style="text-align: center; height: 64px; padding-inline: 50px; line-height: 64px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
+        >
+          Header
+        </header>
+        <main
+          class="ant-layout-content css-dev-only-do-not-override-yp8pcc"
+          style="text-align: center; min-height: 120px; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
+        >
+          <div>
+            Content
+          </div>
+        </main>
+        <footer
+          class="ant-layout-footer css-dev-only-do-not-override-yp8pcc"
+          style="text-align: center; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
+        >
+          Footer
+        </footer>
+      </section>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
