@@ -1,10 +1,11 @@
+import Layout from 'components/Layout'
 import ProductCatalog from 'components/ProductCatalog'
 
 const ProductCatalogPage = () => {
   return (
-    <div>
-      <ProductCatalog />
-    </div>
+    <Layout
+      content={<ProductCatalog />}
+    />
   )
 }
 

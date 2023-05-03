@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render App component 1`] = `
+exports[`should render ProductCatalogPage component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
