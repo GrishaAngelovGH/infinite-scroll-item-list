@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "webpack serve --mode=development --config webpack.config --host 127.0.0.1 --open",
+    "build": "webpack --mode=production --config webpack.config",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "interpolate-html-plugin": "^4.0.0",
+    "webpack-cli": "^5.0.2"
   }
 }
