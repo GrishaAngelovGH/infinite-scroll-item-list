@@ -1,3 +1,3 @@
-import ProductCatalog from "./ProductCatalog"
+import ProductCatalog from './ProductCatalog'
 
 export default ProductCatalog
