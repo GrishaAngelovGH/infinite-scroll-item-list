@@ -24,10 +24,8 @@ Object {
         >
           <header
             class="ant-layout-header css-dev-only-do-not-override-yp8pcc"
-            style="text-align: center; height: 64px; padding-inline: 50px; line-height: 64px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
-          >
-            Header
-          </header>
+            style="text-align: center; height: 100px; padding-inline: 50px; line-height: 100px; color: rgb(255, 255, 255); font-size: 2em;"
+          />
           <main
             class="ant-layout-content css-dev-only-do-not-override-yp8pcc"
             style="text-align: center; min-height: 120px; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
@@ -66,10 +64,8 @@ Object {
       >
         <header
           class="ant-layout-header css-dev-only-do-not-override-yp8pcc"
-          style="text-align: center; height: 64px; padding-inline: 50px; line-height: 64px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"
-        >
-          Header
-        </header>
+          style="text-align: center; height: 100px; padding-inline: 50px; line-height: 100px; color: rgb(255, 255, 255); font-size: 2em;"
+        />
         <main
           class="ant-layout-content css-dev-only-do-not-override-yp8pcc"
           style="text-align: center; min-height: 120px; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 3px solid gray;"

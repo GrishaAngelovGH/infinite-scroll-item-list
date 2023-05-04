@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-shadow: 1px 1px 1px #957dad, 1px 2px 1px #957dad, 1px 3px 1px #957dad, 1px 4px 1px #957dad, 1px 5px 1px #957dad,
+      1px 6px 1px #957dad, 1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+      1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    h1 {
+      display: none;
+    }
+
+    img {
+      margin: 16px;
+    }
+  }
+}
+
+.m-0 {
+  margin: 0;
+}

@@ -43,12 +43,13 @@
   "devDependencies": {
     "eslint": "^8.39.0",
     "interpolate-html-plugin": "^4.0.0",
+    "sass": "^1.62.1",
     "webpack-cli": "^5.0.2"
   },
   "jest": {
     "moduleNameMapper": {
       "^components/(.+)$": "<rootDir>/src/components/$1",
-      "^images$": "<rootDir>/src/images/"
+      "^icons$": "<rootDir>/src/assets/icons/"
     }
   }
 }

@@ -10,11 +10,11 @@ import {
   footerStyle
 } from './styles'
 
-const LayoutWrapper = ({ content }) => (
+const LayoutWrapper = ({ header, content }) => (
   <Layout style={layoutStyle}>
     <Sider style={siderStyle}>Sider</Sider>
     <Layout>
-      <Header style={headerStyle}>Header</Header>
+      <Header style={headerStyle}>{header}</Header>
       <Content style={contentStyle}>{content}</Content>
       <Footer style={footerStyle}>Footer</Footer>
     </Layout>
