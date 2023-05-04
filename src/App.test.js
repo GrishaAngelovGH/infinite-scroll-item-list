@@ -1,9 +1,11 @@
-import { render } from '@testing-library/react'
+import { render, waitFor } from '@testing-library/react'
 
 import App from './App'
 
-test('should render App component', () => {
-  const view = render(<App />)
+test('should render App component', async () => {
+  await waitFor(() => {
+    const view = render(<App />)
 
-  expect(view).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
+  })
 })

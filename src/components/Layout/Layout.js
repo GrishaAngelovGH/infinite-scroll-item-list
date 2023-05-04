@@ -1,18 +1,18 @@
 import { Layout } from 'antd'
+import Sider from 'components/Sider'
 
-const { Header, Footer, Sider, Content } = Layout
+const { Header, Footer, Content } = Layout
 
 import {
-  layoutStyle,
-  headerStyle,
   contentStyle,
-  siderStyle,
-  footerStyle
+  footerStyle,
+  headerStyle,
+  layoutStyle
 } from './styles'
 
 const LayoutWrapper = ({ header, content }) => (
   <Layout style={layoutStyle}>
-    <Sider style={siderStyle}>Sider</Sider>
+    <Sider />
     <Layout>
       <Header style={headerStyle}>{header}</Header>
       <Content style={contentStyle}>{content}</Content>

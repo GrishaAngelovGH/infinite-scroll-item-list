@@ -21,14 +21,6 @@ export const contentStyle = {
   border: '3px solid gray'
 }
 
-export const siderStyle = {
-  textAlign: 'center',
-  lineHeight: '120px',
-  color: '#000',
-  backgroundColor: '#fff',
-  border: '3px solid gray'
-}
-
 export const footerStyle = {
   textAlign: 'center',
   color: '#000',

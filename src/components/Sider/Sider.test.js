@@ -6,22 +6,14 @@ import {
 
 import { render, waitFor } from '@testing-library/react'
 
-import Layout from './Layout'
+import Sider from './Sider'
 
-test('should render Layout component', async () => {
+test('should render ApSiderp component', async () => {
   await waitFor(() => {
     const view = render(
       <Router>
         <Routes>
-          <Route
-            path='/'
-            element={
-              <Layout
-                header={<div>Header</div>}
-                content={<div>Content</div>}
-              />
-            }
-          />
+          <Route path='/' element={<Sider />} />
         </Routes>
       </Router>
     )
