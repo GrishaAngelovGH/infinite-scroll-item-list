@@ -20,6 +20,7 @@ const SiderWrapper = () => {
 
   return (
     <Sider
+      breakpoint='sm'
       collapsible
       collapsed={collapsed}
       onCollapse={(value) => setCollapsed(value)}

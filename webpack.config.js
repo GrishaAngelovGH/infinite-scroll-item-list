@@ -12,7 +12,9 @@ module.exports = {
   resolve: {
     alias: {
       'components': path.resolve(__dirname, 'src/components/'),
-      'icons': path.resolve(__dirname, 'src/assets/icons')
+      'icons': path.resolve(__dirname, 'src/assets/icons/'),
+      'images': path.resolve(__dirname, 'src/assets/images/'),
+      'slices': path.resolve(__dirname, 'src/slices/')
     }
   },
   module: {

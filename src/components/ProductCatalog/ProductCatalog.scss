@@ -1,0 +1,48 @@
+.product-catalog {
+  height: 100%;
+  overflow: auto;
+}
+
+.product-item {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px gray;
+
+  // keep aspect ratio when resize
+  img {
+    max-width: 342px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+  }
+}
+
+.product-title {
+  overflow: auto;
+}
+
+.product-number {
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+// center images in card when resize
+.product-item .ant-card-cover {
+  display: flex;
+  justify-content: center;
+}
+
+// resize product item text when scale
+.product-item {
+  .product-title, .ant-card-meta-title, .product-number, svg {
+    font-size: 1.3vw;
+  }
+}
+
+.product-item .ant-card-actions {
+  border-top: 3px solid lightgray;
+  li:not(:last-child) {
+    border-inline-end: 3px solid lightgray;
+  }
+}

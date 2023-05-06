@@ -1,24 +1,30 @@
+import { render, waitFor } from '@testing-library/react'
+
+import store from 'mockstore'
+import { Provider } from 'react-redux'
+
 import {
   Route,
   BrowserRouter as Router,
   Routes
 } from 'react-router-dom'
 
-import { render, waitFor } from '@testing-library/react'
-
 import ProductCatalogPage from './ProductCatalogPage'
 
 test('should render ProductCatalogPage component', async () => {
   await waitFor(() => {
     const view = render(
-      <Router>
-        <Routes>
-          <Route
-            path='/'
-            element={<ProductCatalogPage />}
-          />
-        </Routes>
-      </Router>
+      <Provider store={store}>
+        <Router>
+          <Routes>
+            <Route
+              path='/'
+              element={<ProductCatalogPage />}
+            />
+          </Routes>
+        </Router>
+
+      </Provider>
     )
 
     expect(view).toMatchSnapshot()
