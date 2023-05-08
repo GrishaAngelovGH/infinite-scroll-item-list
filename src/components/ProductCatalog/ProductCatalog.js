@@ -1,8 +1,8 @@
 import { forwardRef, useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchItems } from 'slices/itemsSlice'
+import { fetchItems, saveAsFavorite } from 'slices/itemsSlice'
 
-import { StarOutlined } from '@ant-design/icons'
+import { StarOutlined, StarFilled } from '@ant-design/icons'
 import { Card, Col, Row } from 'antd'
 const { Meta } = Card
 
@@ -14,24 +14,52 @@ const ProductNumber = ({ number }) => (
   <span className='product-number'>#{number}</span>
 )
 
-const ProductItem = forwardRef(({ title, image, number, price }, ref) => (
-  <Col sm={24} md={8} ref={ref}>
-    <Card
-      className='product-item'
-      cover={<img src={images[image]} />}
-      actions={[
-        <ProductNumber key='num' number={number} />,
-        <StarOutlined key='favorite' style={{ fontSize: 30, padding: 7 }} />
-      ]}
-    >
-      <Meta title={<div className='product-title'>{title}</div>} />
-      <Meta title={`$${price}`} />
-    </Card>
-  </Col>
-))
+const ProductItem = forwardRef(({ id, title, image, number, price, isFavorite }, ref) => {
+  const dispatch = useDispatch()
+
+  const handleSaveAsFavoriteClick = () => {
+    dispatch(saveAsFavorite({ id, isFavorite: true }))
+  }
+
+  const handleRemoveAsFavoriteClick = () => {
+    dispatch(saveAsFavorite({ id, isFavorite: false }))
+  }
+
+  const action = isFavorite ?
+    (
+      <StarFilled
+        key='unfavorite'
+        onClick={handleRemoveAsFavoriteClick}
+      />
+    ) :
+    (
+      <StarOutlined
+        key='favorite'
+        onClick={handleSaveAsFavoriteClick}
+      />
+    )
+
+  const actions = [
+    <ProductNumber key='num' number={number} />,
+    action
+  ]
+
+  return (
+    <Col sm={24} md={8} ref={ref}>
+      <Card
+        className='product-item'
+        cover={<img src={images[image]} />}
+        actions={actions}
+      >
+        <Meta title={<div className='product-title'>{title}</div>} />
+        <Meta title={`$${price}`} />
+      </Card>
+    </Col >
+  )
+})
 
 const ProductCatalog = () => {
-  const items = useSelector((state) => state.items)
+  const items = useSelector((state) => Object.values(state.items))
   const dispatch = useDispatch()
 
   const targetRef = useRef()
@@ -90,10 +118,12 @@ const ProductCatalog = () => {
                     <ProductItem
                       key={v.id}
                       ref={ref}
+                      id={v.id}
                       title={v.title}
                       image={v.image}
                       number={v.number}
                       price={v.price}
+                      isFavorite={v.isFavorite}
                     />
                   )
                 })

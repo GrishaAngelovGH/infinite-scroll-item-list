@@ -8,23 +8,35 @@
   padding: 10px;
   box-shadow: 2px 2px 10px gray;
 
+  // resize product item text when scale
+  .product-title,
+  .ant-card-meta-title {
+    font-size: 1.3vw;
+  }
+
+  .product-number {
+    color: #000;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+
+  svg {
+    color: yellow;
+    margin: 5%;
+    font-size: 2vw;
+  }
+
   // keep aspect ratio when resize
   img {
-    max-width: 342px;
-    max-height: 250px;
-    width: auto;
-    height: auto;
+    min-width: 15vw;
+    min-height: 15vw;
+    max-width: 15vw;
+    max-height: 15vw;
   }
 }
 
 .product-title {
   overflow: auto;
-}
-
-.product-number {
-  color: #000;
-  font-weight: bold;
-  font-size: 30px;
 }
 
 // center images in card when resize
@@ -33,16 +45,31 @@
   justify-content: center;
 }
 
-// resize product item text when scale
-.product-item {
-  .product-title, .ant-card-meta-title, .product-number, svg {
-    font-size: 1.3vw;
-  }
-}
-
 .product-item .ant-card-actions {
   border-top: 3px solid lightgray;
   li:not(:last-child) {
     border-inline-end: 3px solid lightgray;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .product-item {
+    img {
+      min-width: 250px;
+      height: 250px;
+      max-width: 250px;
+      max-height: 250px;
+    }
+
+    .product-title,
+    .ant-card-meta-title,
+    .product-number,
+    .ant-card-actions {
+      font-size: 30px;
+    }
+
+    svg {
+      font-size: 30px;
+    }
   }
 }
