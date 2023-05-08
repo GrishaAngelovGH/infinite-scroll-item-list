@@ -17,13 +17,13 @@ export const contentStyle = {
   minHeight: 120,
   lineHeight: '120px',
   color: '#000',
-  backgroundColor: '#fff',
-  border: '3px solid gray'
+  backgroundColor: '#fff'
 }
 
 export const footerStyle = {
   textAlign: 'center',
-  color: '#000',
-  backgroundColor: '#fff',
-  border: '3px solid gray'
+  height: 48,
+  color: '#fff',
+  backgroundColor: '#001529',
+  padding: '10px 50px'
 }
