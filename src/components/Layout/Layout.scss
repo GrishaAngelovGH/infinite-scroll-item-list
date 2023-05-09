@@ -1,0 +1,25 @@
+.layout {
+  height: 100vh;
+}
+
+.layout__header {
+  height: 100px;
+  padding-inline: 50px;
+  line-height: 100px;
+  color: #fff;
+  background: linear-gradient(90deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
+  font-size: 2em;
+}
+
+.layout__content {
+  text-align: center;
+  min-height: 120px;
+  line-height: 120px;
+}
+
+.layout__footer {
+  height: 48px;
+  color: #fff;
+  background: #001529;
+  padding: 10px 50px;
+}

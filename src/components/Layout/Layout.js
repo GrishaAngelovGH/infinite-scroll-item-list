@@ -3,20 +3,15 @@ import Sider from 'components/Sider'
 
 const { Header, Footer, Content } = Layout
 
-import {
-  contentStyle,
-  footerStyle,
-  headerStyle,
-  layoutStyle
-} from './styles'
+import './Layout.scss'
 
 const LayoutWrapper = ({ header, content, footer }) => (
-  <Layout style={layoutStyle}>
+  <Layout className='layout'>
     <Sider />
     <Layout>
-      <Header style={headerStyle}>{header}</Header>
-      <Content style={contentStyle}>{content}</Content>
-      <Footer style={footerStyle}>{footer}</Footer>
+      <Header className='layout__header'>{header}</Header>
+      <Content className='layout__content'>{content}</Content>
+      <Footer className='layout__footer'>{footer}</Footer>
     </Layout>
   </Layout>
 )

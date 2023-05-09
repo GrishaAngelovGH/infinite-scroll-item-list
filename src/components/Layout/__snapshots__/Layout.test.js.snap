@@ -6,8 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <section
-        class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-yp8pcc"
-        style="height: 100vh;"
+        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
       >
         <aside
           class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
@@ -131,24 +130,21 @@ Object {
           class="ant-layout css-dev-only-do-not-override-yp8pcc"
         >
           <header
-            class="ant-layout-header css-dev-only-do-not-override-yp8pcc"
-            style="text-align: center; height: 100px; padding-inline: 50px; line-height: 100px; color: rgb(255, 255, 255); font-size: 2em;"
+            class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
           >
             <div>
               Header
             </div>
           </header>
           <main
-            class="ant-layout-content css-dev-only-do-not-override-yp8pcc"
-            style="text-align: center; min-height: 120px; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
           >
             <div>
               Content
             </div>
           </main>
           <footer
-            class="ant-layout-footer css-dev-only-do-not-override-yp8pcc"
-            style="text-align: center; height: 48px; color: rgb(255, 255, 255); background-color: rgb(0, 21, 41); padding: 10px 50px;"
+            class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
           />
         </section>
       </section>
@@ -156,8 +152,7 @@ Object {
   </body>,
   "container": <div>
     <section
-      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-yp8pcc"
-      style="height: 100vh;"
+      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
     >
       <aside
         class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
@@ -281,24 +276,21 @@ Object {
         class="ant-layout css-dev-only-do-not-override-yp8pcc"
       >
         <header
-          class="ant-layout-header css-dev-only-do-not-override-yp8pcc"
-          style="text-align: center; height: 100px; padding-inline: 50px; line-height: 100px; color: rgb(255, 255, 255); font-size: 2em;"
+          class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
         >
           <div>
             Header
           </div>
         </header>
         <main
-          class="ant-layout-content css-dev-only-do-not-override-yp8pcc"
-          style="text-align: center; min-height: 120px; line-height: 120px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+          class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
         >
           <div>
             Content
           </div>
         </main>
         <footer
-          class="ant-layout-footer css-dev-only-do-not-override-yp8pcc"
-          style="text-align: center; height: 48px; color: rgb(255, 255, 255); background-color: rgb(0, 21, 41); padding: 10px 50px;"
+          class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
         />
       </section>
     </section>
