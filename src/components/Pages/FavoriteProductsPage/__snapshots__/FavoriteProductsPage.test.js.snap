@@ -165,9 +165,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="bluetooth-speaker.jpg"
-                        />
+                        <a
+                          href="/123"
+                        >
+                          <img
+                            src="bluetooth-speaker.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -256,9 +260,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="gamepad.jpg"
-                        />
+                        <a
+                          href="/234"
+                        >
+                          <img
+                            src="gamepad.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -563,9 +571,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="bluetooth-speaker.jpg"
-                      />
+                      <a
+                        href="/123"
+                      >
+                        <img
+                          src="bluetooth-speaker.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"
@@ -654,9 +666,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="gamepad.jpg"
-                      />
+                      <a
+                        href="/234"
+                      >
+                        <img
+                          src="gamepad.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"

@@ -14,9 +14,13 @@ Object {
           <div
             class="ant-card-cover"
           >
-            <img
-              src="smartwatch.jpg"
-            />
+            <a
+              href="/123"
+            >
+              <img
+                src="smartwatch.jpg"
+              />
+            </a>
           </div>
           <div
             class="ant-card-body"
@@ -108,9 +112,13 @@ Object {
         <div
           class="ant-card-cover"
         >
-          <img
-            src="smartwatch.jpg"
-          />
+          <a
+            href="/123"
+          >
+            <img
+              src="smartwatch.jpg"
+            />
+          </a>
         </div>
         <div
           class="ant-card-body"
@@ -259,9 +267,13 @@ Object {
           <div
             class="ant-card-cover"
           >
-            <img
-              src="smartwatch.jpg"
-            />
+            <a
+              href="/123"
+            >
+              <img
+                src="smartwatch.jpg"
+              />
+            </a>
           </div>
           <div
             class="ant-card-body"
@@ -353,9 +365,13 @@ Object {
         <div
           class="ant-card-cover"
         >
-          <img
-            src="smartwatch.jpg"
-          />
+          <a
+            href="/123"
+          >
+            <img
+              src="smartwatch.jpg"
+            />
+          </a>
         </div>
         <div
           class="ant-card-body"

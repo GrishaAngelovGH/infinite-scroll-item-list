@@ -1,0 +1,42 @@
+.product-row {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+
+  img {
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+  }
+
+  .product-description {
+    border: 1px solid silver;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: gray;
+    box-shadow: 5px 5px 10px gray;
+
+    .price {
+      color: #108ee9;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .product-row {
+    img {
+      width: 95vw;
+    }
+
+    .product-description {
+      .title {
+        max-width: 300px;
+        overflow: auto;
+      }
+    }
+  }
+}

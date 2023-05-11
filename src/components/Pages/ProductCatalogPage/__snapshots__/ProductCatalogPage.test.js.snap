@@ -165,9 +165,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="bluetooth-speaker.jpg"
-                        />
+                        <a
+                          href="/123"
+                        >
+                          <img
+                            src="bluetooth-speaker.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -256,9 +260,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="gamepad.jpg"
-                        />
+                        <a
+                          href="/234"
+                        >
+                          <img
+                            src="gamepad.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -347,9 +355,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="portable-ssd.jpg"
-                        />
+                        <a
+                          href="/345"
+                        >
+                          <img
+                            src="portable-ssd.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -442,9 +454,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="laptop.jpg"
-                        />
+                        <a
+                          href="/456"
+                        >
+                          <img
+                            src="laptop.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -533,9 +549,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="smartwatch.jpg"
-                        />
+                        <a
+                          href="/567"
+                        >
+                          <img
+                            src="smartwatch.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -624,9 +644,13 @@ Object {
                       <div
                         class="ant-card-cover"
                       >
-                        <img
-                          src="wireless-headphones.jpg"
-                        />
+                        <a
+                          href="/678"
+                        >
+                          <img
+                            src="wireless-headphones.jpg"
+                          />
+                        </a>
                       </div>
                       <div
                         class="ant-card-body"
@@ -931,9 +955,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="bluetooth-speaker.jpg"
-                      />
+                      <a
+                        href="/123"
+                      >
+                        <img
+                          src="bluetooth-speaker.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"
@@ -1022,9 +1050,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="gamepad.jpg"
-                      />
+                      <a
+                        href="/234"
+                      >
+                        <img
+                          src="gamepad.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"
@@ -1113,9 +1145,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="portable-ssd.jpg"
-                      />
+                      <a
+                        href="/345"
+                      >
+                        <img
+                          src="portable-ssd.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"
@@ -1208,9 +1244,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="laptop.jpg"
-                      />
+                      <a
+                        href="/456"
+                      >
+                        <img
+                          src="laptop.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"
@@ -1299,9 +1339,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="smartwatch.jpg"
-                      />
+                      <a
+                        href="/567"
+                      >
+                        <img
+                          src="smartwatch.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"
@@ -1390,9 +1434,13 @@ Object {
                     <div
                       class="ant-card-cover"
                     >
-                      <img
-                        src="wireless-headphones.jpg"
-                      />
+                      <a
+                        href="/678"
+                      >
+                        <img
+                          src="wireless-headphones.jpg"
+                        />
+                      </a>
                     </div>
                     <div
                       class="ant-card-body"

@@ -1,5 +1,6 @@
 import { forwardRef } from 'react'
 import { useDispatch } from 'react-redux'
+import { Link } from 'react-router-dom'
 import { saveAsFavorite } from 'slices/itemsSlice'
 
 import { StarFilled, StarOutlined } from '@ant-design/icons'
@@ -44,7 +45,11 @@ const ProductItem = forwardRef(({ id, title, image, number, price, isFavorite },
     <Col sm={24} md={8} ref={ref}>
       <Card
         className='product-item'
-        cover={<img src={images[image]} />}
+        cover={
+          <Link to={`/${id}`}>
+            <img src={images[image]} />
+          </Link>
+        }
         actions={actions}
       >
         <Meta title={<div className='product-title'>{title}</div>} />
