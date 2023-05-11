@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
-import ProductCatalogPage from 'components/ProductCatalogPage'
-import FavoriteProductsPage from 'components/FavoriteProductsPage'
+import ProductCatalogPage from 'components/Pages/ProductCatalogPage'
+import FavoriteProductsPage from 'components/Pages/FavoriteProductsPage'
 
 function App() {
   return (
