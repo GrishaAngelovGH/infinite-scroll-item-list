@@ -14,7 +14,8 @@ module.exports = {
       'components': path.resolve(__dirname, 'src/components/'),
       'icons': path.resolve(__dirname, 'src/assets/icons/'),
       'images': path.resolve(__dirname, 'src/assets/images/'),
-      'slices': path.resolve(__dirname, 'src/slices/')
+      'slices': path.resolve(__dirname, 'src/slices/'),
+      'selectors': path.resolve(__dirname, 'src/selectors/')
     }
   },
   module: {

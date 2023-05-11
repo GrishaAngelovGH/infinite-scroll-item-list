@@ -57,7 +57,8 @@
       "^icons$": "<rootDir>/src/assets/icons/",
       "^images$": "<rootDir>/src/assets/images/",
       "^slices/(.+)$": "<rootDir>/src/slices/$1",
-      "mockstore": "<rootDir>/src/mock-store.js"
+      "mockstore": "<rootDir>/src/mock-store.js",
+      "^selectors/(.+)$": "<rootDir>/src/selectors/$1"
     },
     "transformIgnorePatterns": [
       "node_modules/(?!axios)/"

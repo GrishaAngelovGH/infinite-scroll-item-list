@@ -1,18 +1,22 @@
 import { useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { selectItemRows } from 'selectors/itemRowsSelector'
+
 import { fetchItems } from 'slices/itemsSlice'
 
 import { Col, Row } from 'antd'
 
-import ProductItem from 'components/ProductCatalog/ProductItem'
+import ProductItem from 'components/ProductItem'
 
 import './ProductCatalog.scss'
 
 const ProductCatalog = () => {
-  const items = useSelector((state) => Object.values(state.items))
+  const itemRows = useSelector(selectItemRows)
   const dispatch = useDispatch()
 
   const targetRef = useRef()
+
+  const items = itemRows.flat()
 
   const options = {
     root: null, // watch for intersection relative to the device's viewport
@@ -26,20 +30,8 @@ const ProductCatalog = () => {
     entry.isIntersecting && dispatch(fetchItems())
   }, options)
 
-  const createRows = items => {
-    let itemsCpy = [...items]
-    const pages = []
-
-    while (itemsCpy.length) {
-      const page = itemsCpy.splice(0, 3)
-      pages.push(page)
-    }
-
-    return pages
-  }
-
   useEffect(() => {
-    dispatch(fetchItems())
+    !items.length && dispatch(fetchItems())
   }, [])
 
   useEffect(() => {
@@ -58,7 +50,7 @@ const ProductCatalog = () => {
     <Row className='product-catalog'>
       <Col span={24}>
         {
-          createRows(items).map((row, i) => (
+          itemRows.map((row, i) => (
             <Row key={i}>
               {
                 row.map(v => {

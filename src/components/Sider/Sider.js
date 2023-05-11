@@ -11,12 +11,19 @@ const siderStyle = {
 }
 
 const items = [
-  { label: 'Product Catalog', key: 1, icon: <Link to='/'><AppstoreOutlined /></Link> },
-  { label: 'Favorites', key: 2, icon: <Link to='/favorites'><StarOutlined /></Link> }
+  { label: <Link to='/'>Product Catalog</Link>, key: 1, icon: <AppstoreOutlined /> },
+  { label: <Link to='/favorites'>Favorites</Link>, key: 2, icon: <StarOutlined /> }
 ]
+
+const menuKeys = {
+  '': '1',
+  '#/': '1',
+  '#/favorites': '2'
+}
 
 const SiderWrapper = () => {
   const [collapsed, setCollapsed] = useState(false)
+  const defaultSelectedKey = menuKeys[window.location.hash]
 
   return (
     <Sider
@@ -28,7 +35,7 @@ const SiderWrapper = () => {
     >
       <Menu
         theme='dark'
-        defaultSelectedKeys={['1']}
+        defaultSelectedKeys={[defaultSelectedKey]}
         mode='inline'
         items={items}
       />

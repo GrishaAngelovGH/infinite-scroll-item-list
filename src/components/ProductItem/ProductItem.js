@@ -6,7 +6,7 @@ import { StarFilled, StarOutlined } from '@ant-design/icons'
 import { Card, Col } from 'antd'
 const { Meta } = Card
 
-import ProductNumber from 'components/ProductCatalog/ProductNumber'
+import ProductNumber from 'components/ProductItem/ProductNumber'
 
 import images from 'images'
 

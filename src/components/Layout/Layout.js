@@ -6,7 +6,7 @@ const { Header, Footer, Content } = Layout
 import './Layout.scss'
 
 const LayoutWrapper = ({ header, content, footer }) => (
-  <Layout className='layout'>
+  <Layout className='layout' hasSider={true}>
     <Sider />
     <Layout>
       <Header className='layout__header'>{header}</Header>
