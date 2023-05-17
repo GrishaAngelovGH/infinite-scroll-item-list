@@ -11,6 +11,9 @@ const store = mockStore({
     456: { id: 456, title: 'Laptop', image: 'laptop.jpg', price: 456.78, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 4, isFavorite: false },
     567: { id: 567, title: 'Smartwatch', image: 'smartwatch.jpg', price: 567.89, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 5, isFavorite: false },
     678: { id: 678, title: 'Wireless Headphones', image: 'wireless-headphones.jpg', price: 678.90, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 6, isFavorite: false }
+  },
+  filters: {
+    criteria: ''
   }
 })
 

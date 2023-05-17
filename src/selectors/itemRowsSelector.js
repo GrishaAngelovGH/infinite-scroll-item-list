@@ -27,3 +27,14 @@ export const selectFavoriteItemRows = createSelector(
     return createRows(favoiteItems)
   }
 )
+
+export const selectFavoriteItemRowsByCriteria = createSelector(
+  (state) => state,
+  (state) => {
+    const criteria = state.filters.criteria.toLowerCase()
+    const favoriteItems = Object.values(state.items).filter(v => v.isFavorite)
+    const filteredItems = favoriteItems.filter(v => v.title.toLowerCase().includes(criteria))
+
+    return createRows(filteredItems)
+  }
+)

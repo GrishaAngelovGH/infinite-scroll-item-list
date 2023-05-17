@@ -1,14 +1,35 @@
+import { useState } from 'react'
 import { useSelector } from 'react-redux'
-import { selectFavoriteItemRows } from 'selectors/itemRowsSelector'
+import {
+  selectFavoriteItemRows,
+  selectFavoriteItemRowsByCriteria
+} from 'selectors/itemRowsSelector'
 
-import { Col, Empty, Row } from 'antd'
+import { ControlFilled } from '@ant-design/icons'
+import { Button, Col, Empty, Row, Tooltip } from 'antd'
 
+import FilterDrawer from 'components/Pages/FavoriteProductsPage/Products/FilterDrawer'
 import ProductItem from 'components/ProductItem'
 
-const Products = () => {
-  const itemsRows = useSelector(selectFavoriteItemRows)
+import './Products.scss'
 
-  if (!itemsRows.length) {
+const Products = () => {
+  const itemRows = useSelector(selectFavoriteItemRows)
+  const filteredItemRows = useSelector(selectFavoriteItemRowsByCriteria)
+
+  const [open, setOpen] = useState(false)
+
+  const showDrawer = () => {
+    setOpen(true)
+  }
+
+  const onClose = () => {
+    setOpen(false)
+  }
+
+  const favoriteItemRows = !filteredItemRows.length ? itemRows : filteredItemRows
+
+  if (!itemRows.length) {
     return (
       <Empty
         imageStyle={{
@@ -25,9 +46,21 @@ const Products = () => {
 
   return (
     <Row className='product-catalog'>
+      <Tooltip title='Filters'>
+        <Button
+          className='filter-btn'
+          type='primary'
+          onClick={showDrawer}
+        >
+          <ControlFilled />
+        </Button>
+      </Tooltip>
+
+      <FilterDrawer open={open} onClose={onClose} />
+
       <Col span={24}>
         {
-          itemsRows.map((row, i) => (
+          favoriteItemRows.map((row, i) => (
             <Row key={i}>
               {
                 row.map(v => {
