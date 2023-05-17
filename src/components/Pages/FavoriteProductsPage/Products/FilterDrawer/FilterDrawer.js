@@ -46,7 +46,7 @@ const FilterDrawer = ({ open, onClose }) => {
       <Slider
         className='price-filter'
         marks={{ 100: '100', 1000: '1000' }}
-        defaultValue={price}
+        value={price}
         min={100}
         max={1000}
         step={50}

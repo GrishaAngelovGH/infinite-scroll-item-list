@@ -16,10 +16,16 @@ export const filtersSlice = createSlice({
     applyPriceFilter: (state, { payload }) => {
       state.price = payload
       return state
+    },
+    clearFilters: (state) => {
+      state.criteria = ''
+      state.price = 1000
+
+      return state
     }
   }
 })
 
-export const { applyCriteriaFilter, applyPriceFilter } = filtersSlice.actions
+export const { applyCriteriaFilter, applyPriceFilter, clearFilters } = filtersSlice.actions
 
 export default filtersSlice.reducer

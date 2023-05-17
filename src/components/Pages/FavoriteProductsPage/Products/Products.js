@@ -1,8 +1,10 @@
 import { useState } from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { clearFilters } from 'slices/filtersSlice'
+
 import { selectFavoriteItemRowsByFilter } from 'selectors/itemRowsSelector'
 
-import { ControlFilled } from '@ant-design/icons'
+import { ControlFilled, CloseCircleFilled } from '@ant-design/icons'
 import { Button, Col, Empty, Row, Tooltip } from 'antd'
 
 import FilterDrawer from 'components/Pages/FavoriteProductsPage/Products/FilterDrawer'
@@ -12,8 +14,8 @@ import './Products.scss'
 
 const Products = () => {
   const itemRows = useSelector(selectFavoriteItemRowsByFilter)
-
   const [open, setOpen] = useState(false)
+  const dispatch = useDispatch()
 
   const showDrawer = () => {
     setOpen(true)
@@ -21,6 +23,10 @@ const Products = () => {
 
   const onClose = () => {
     setOpen(false)
+  }
+
+  const handleClearFilters = () => {
+    dispatch(clearFilters())
   }
 
   return (
@@ -32,6 +38,17 @@ const Products = () => {
           onClick={showDrawer}
         >
           <ControlFilled />
+        </Button>
+      </Tooltip>
+
+      <Tooltip title='Clear All Filters'>
+        <Button
+          className='filter-btn'
+          type='primary'
+          danger
+          onClick={handleClearFilters}
+        >
+          <CloseCircleFilled />
         </Button>
       </Tooltip>
 
