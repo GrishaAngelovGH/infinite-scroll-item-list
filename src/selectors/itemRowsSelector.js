@@ -17,23 +17,17 @@ export const selectItemRows = createSelector(
   (items) => createRows(Object.values(items))
 )
 
-export const selectFavoriteItemRows = createSelector(
-  (state) => state.items,
-  (items) => {
-    const arr = Object.values(items)
-    if (!arr.length) return []
-
-    const favoiteItems = arr.filter(v => v.isFavorite)
-    return createRows(favoiteItems)
-  }
-)
-
-export const selectFavoriteItemRowsByCriteria = createSelector(
+export const selectFavoriteItemRowsByFilter = createSelector(
   (state) => state,
   (state) => {
     const criteria = state.filters.criteria.toLowerCase()
+    const price = state.filters.price
+
     const favoriteItems = Object.values(state.items).filter(v => v.isFavorite)
-    const filteredItems = favoriteItems.filter(v => v.title.toLowerCase().includes(criteria))
+
+    const filteredItems = favoriteItems
+      .filter(v => v.title.toLowerCase().includes(criteria))
+      .filter(v => v.price <= price)
 
     return createRows(filteredItems)
   }

@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  criteria: ''
+  criteria: '',
+  price: 1000
 }
 
 export const filtersSlice = createSlice({
@@ -9,15 +10,16 @@ export const filtersSlice = createSlice({
   initialState,
   reducers: {
     applyCriteriaFilter: (state, { payload }) => {
-      const stateValue = JSON.parse(JSON.stringify(state))
-
-      stateValue.criteria = payload
-
-      return (state = stateValue)
+      state.criteria = payload
+      return state
+    },
+    applyPriceFilter: (state, { payload }) => {
+      state.price = payload
+      return state
     }
   }
 })
 
-export const { applyCriteriaFilter } = filtersSlice.actions
+export const { applyCriteriaFilter, applyPriceFilter } = filtersSlice.actions
 
 export default filtersSlice.reducer

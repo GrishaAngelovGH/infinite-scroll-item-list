@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
-import {
-  selectFavoriteItemRows,
-  selectFavoriteItemRowsByCriteria
-} from 'selectors/itemRowsSelector'
+import { selectFavoriteItemRowsByFilter } from 'selectors/itemRowsSelector'
 
 import { ControlFilled } from '@ant-design/icons'
 import { Button, Col, Empty, Row, Tooltip } from 'antd'
@@ -14,8 +11,7 @@ import ProductItem from 'components/ProductItem'
 import './Products.scss'
 
 const Products = () => {
-  const itemRows = useSelector(selectFavoriteItemRows)
-  const filteredItemRows = useSelector(selectFavoriteItemRowsByCriteria)
+  const itemRows = useSelector(selectFavoriteItemRowsByFilter)
 
   const [open, setOpen] = useState(false)
 
@@ -25,23 +21,6 @@ const Products = () => {
 
   const onClose = () => {
     setOpen(false)
-  }
-
-  const favoriteItemRows = !filteredItemRows.length ? itemRows : filteredItemRows
-
-  if (!itemRows.length) {
-    return (
-      <Empty
-        imageStyle={{
-          marginTop: '10%',
-        }}
-        description={
-          <h1 style={{ fontSize: 40 }}>
-            No items found
-          </h1>
-        }
-      />
-    )
   }
 
   return (
@@ -60,7 +39,18 @@ const Products = () => {
 
       <Col span={24}>
         {
-          favoriteItemRows.map((row, i) => (
+          !itemRows.length && (
+            <Empty
+              description={
+                <h1 style={{ fontSize: 40 }}>
+                  No items found
+                </h1>
+              }
+            />
+          )
+        }
+        {
+          itemRows.map((row, i) => (
             <Row key={i}>
               {
                 row.map(v => {

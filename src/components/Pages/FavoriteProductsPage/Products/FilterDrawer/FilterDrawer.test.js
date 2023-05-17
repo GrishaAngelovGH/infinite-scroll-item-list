@@ -8,7 +8,7 @@ import FilterDrawer from './FilterDrawer'
 test('should render FilterDrawer component', () => {
   const view = render(
     <Provider store={store}>
-      <FilterDrawer />
+      <FilterDrawer open={true} />
     </Provider>
   )
 

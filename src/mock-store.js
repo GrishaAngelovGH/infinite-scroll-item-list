@@ -13,7 +13,8 @@ const store = mockStore({
     678: { id: 678, title: 'Wireless Headphones', image: 'wireless-headphones.jpg', price: 678.90, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 6, isFavorite: false }
   },
   filters: {
-    criteria: ''
+    criteria: '',
+    price: 1000
   }
 })
 
