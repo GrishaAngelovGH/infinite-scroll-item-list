@@ -19,7 +19,26 @@ test('should render ProductPage component', async () => {
           <Routes>
             <Route
               path='/'
-              element={<ProductPage />}
+              element={<ProductPage id={123} />}
+            />
+          </Routes>
+        </Router>
+      </Provider>
+    )
+
+    expect(view).toMatchSnapshot()
+  })
+})
+
+test('should render ProductPage component for non-existent item', async () => {
+  await waitFor(() => {
+    const view = render(
+      <Provider store={store}>
+        <Router>
+          <Routes>
+            <Route
+              path='/'
+              element={<ProductPage id={12345} />}
             />
           </Routes>
         </Router>

@@ -34,20 +34,22 @@ export const ProductPage = ({ id }) => {
 
   return (
     <Row className='product-row'>
-      <Col xs={23} md={12} lg={8}>
-        <img src={images[item.image]} width={400} height={300} />
-      </Col>
       <Col xs={23} md={12} lg={12} className='product-description'>
-        <Tag color='#108ee9'>
-          <h1 className='title'>{item.title}</h1>
-        </Tag>
+        <img src={images[item.image]} />
 
-        <h1 className='price'>${item.price}</h1>
-        <h3>{item.description}</h3>
+        <div className='summary'>
+          <Tag color='#108ee9'>
+            <h1 className='title'>{item.title}</h1>
+          </Tag>
 
-        <Link to='/'>
-          <Button>Go Back</Button>
-        </Link>
+          <h1 className='price'>${item.price}</h1>
+
+          <p>{item.description}</p>
+
+          <Link to='/'>
+            <Button>Go Back</Button>
+          </Link>
+        </div>
       </Col>
     </Row>
   )
