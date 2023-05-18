@@ -2,6 +2,7 @@ const path = require('path')
 
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const InterpolateHtmlPlugin = require('interpolate-html-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -56,6 +57,18 @@ module.exports = {
     }),
     new InterpolateHtmlPlugin({
       'PUBLIC_URL': '.'
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'public/manifest.json',
+          to: '.'
+        },
+        {
+          from: 'public/logo192.png',
+          to: '.'
+        }
+      ]
     })
   ]
 }
