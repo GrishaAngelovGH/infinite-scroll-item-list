@@ -13,15 +13,4 @@ The user is able to preview list of all dynamically fetched product items, previ
 
 ## The front-end project is using the following technologies:
 
-* Initial structure is created with **create-react-app**
-* Integrated **babel/eslint-parser** with added various rules
-* Integrated **react 18**
-* Integrated **react-router v6**
-* Configured **webpack v5** - able to run webpack serve for development purposes and to produce build ready for deployment
-* Integrated **ant design 5** ui library
-* Integrated **ant design icons**
-* Integrated **scss**
-* Integrated **axios**
-* Integrated **axios-mock-adapter**
-* Integrated **reduxjs/toolkit**
-* Integrated **redux-mock-store**
+<img src="https://img.shields.io/badge/create--react--app-%23563D7C.svg?style=flat&logo=create-react-app&color=white" height="30"> <img src="https://img.shields.io/badge/babel--eslint--parser-%23563D7C.svg?style=flat&logo=babel&color=white" height="30"> <img src="https://img.shields.io/badge/React.JS-%23563D7C.svg?style=flat&logo=react&color=white" height="30"> <img src="https://img.shields.io/badge/React_Router%20v6-CA4245?style=flat&logo=react-router&color=white&logoColor=red" height="30"> <img src="https://img.shields.io/badge/Webpack-%238DD6F9.svg?style=flat&logo=webpack&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/-AntDesign-%230170FE?style=flat&logo=ant-design&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/-AntDesign%20Icons-%230170FE?style=flat&logo=ant-design&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/SASS-%231572B6.svg?style=flat&logo=sass&color=white&logoColor=darkpink" height="30"> <img src="https://img.shields.io/badge/Axios-%231572B6.svg?style=flat&logo=axios&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/axios--mock--adapter-%231572B6.svg?style=flat&logo=axios&color=white&logoColor=blue" height="30"> <img src="https://img.shields.io/badge/redux--toolkit-%23593d88.svg?style=flat&logo=redux&color=white&logoColor=purple" height="30"> <img src="https://img.shields.io/badge/redux--mock--store-%23593d88.svg?style=flat&logo=redux&color=white&logoColor=purple" height="30">
