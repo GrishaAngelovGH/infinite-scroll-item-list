@@ -64,5 +64,8 @@
     "transformIgnorePatterns": [
       "node_modules/(?!axios)/"
     ]
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
