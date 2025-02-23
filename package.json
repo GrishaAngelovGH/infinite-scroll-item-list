@@ -15,17 +15,9 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.11.0",
-    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "dev": "webpack serve --mode=development --config webpack.config --host 127.0.0.1 --open",
-    "build": "webpack --mode=production --config webpack.config",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint 'src/**/*.js'",
-    "lint:fix": "eslint --fix --ext .js,.jsx ."
-  },
+  "scripts": {},
   "eslintConfig": {
     "extends": [
       "react-app",
