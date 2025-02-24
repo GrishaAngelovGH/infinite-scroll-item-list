@@ -10,7 +10,13 @@ export default defineConfig({
       selectors: "/src/selectors",
       slices: "/src/slices",
       images: "/src/assets/images",
-      icons: "/src/assets/icons"
+      icons: "/src/assets/icons",
+      store: "/src/store"
     }
   },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: './tests/setup.js'
+  }
 })

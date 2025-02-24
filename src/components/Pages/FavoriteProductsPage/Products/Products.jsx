@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { clearFilters } from 'slices/filtersSlice'
 
-import { selectFavoriteItemRowsByFilter } from 'selectors/itemRowsSelector'
+import { selectFavoriteItemRowsByFilter, createRows } from 'selectors/itemRowsSelector'
 
 import { ControlFilled, CloseCircleFilled } from '@ant-design/icons'
 import { Button, Col, Empty, Row, Tooltip } from 'antd'
@@ -13,7 +13,7 @@ import ProductItem from 'components/ProductItem'
 import './Products.scss'
 
 const Products = () => {
-  const itemRows = useSelector(selectFavoriteItemRowsByFilter)
+  const itemRows = createRows(useSelector(selectFavoriteItemRowsByFilter))
   const [open, setOpen] = useState(false)
   const dispatch = useDispatch()
 

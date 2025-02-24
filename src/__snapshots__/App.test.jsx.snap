@@ -1,27 +1,28 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render ProductCatalogPage component 1`] = `
-Object {
+exports[`should render App component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
+      <div
+        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
       >
         <aside
-          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
           style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
         >
           <div
             class="ant-layout-sider-children"
           >
             <ul
-              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-yp8pcc"
+              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
               data-menu-list="true"
               role="menu"
               tabindex="0"
             >
               <li
+                aria-describedby="test-id"
                 class="ant-menu-item ant-menu-item-selected"
                 data-menu-id="rc-menu-uuid-test-1"
                 role="menuitem"
@@ -51,13 +52,15 @@ Object {
                   class="ant-menu-title-content"
                 >
                   <a
-                    href="/"
+                    data-discover="true"
+                    href="#/"
                   >
                     Product Catalog
                   </a>
                 </span>
               </li>
               <li
+                aria-describedby="test-id"
                 class="ant-menu-item"
                 data-menu-id="rc-menu-uuid-test-2"
                 role="menuitem"
@@ -87,7 +90,8 @@ Object {
                   class="ant-menu-title-content"
                 >
                   <a
-                    href="/favorites"
+                    data-discover="true"
+                    href="#/favorites"
                   >
                     Favorites
                   </a>
@@ -124,11 +128,11 @@ Object {
             </span>
           </div>
         </aside>
-        <section
-          class="ant-layout css-dev-only-do-not-override-yp8pcc"
+        <div
+          class="ant-layout css-dev-only-do-not-override-19lec04"
         >
           <header
-            class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
           >
             <div
               class="header"
@@ -139,37 +143,38 @@ Object {
                 Infinite Scroll Item List
               </h1>
               <img
-                src="scroll.png"
+                src="/src/assets/icons/scroll.png"
                 width="70"
               />
             </div>
           </header>
           <main
-            class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-row product-catalog css-dev-only-do-not-override-yp8pcc"
+              class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-col ant-col-24 css-dev-only-do-not-override-yp8pcc"
+                class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
               >
                 <div
-                  class="ant-row css-dev-only-do-not-override-yp8pcc"
+                  class="ant-row css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
-                          href="/123"
+                          data-discover="true"
+                          href="#/123"
                         >
                           <img
-                            src="bluetooth-speaker.jpg"
+                            src="/src/assets/images/bluetooth-speaker.jpg"
                           />
                         </a>
                       </div>
@@ -252,19 +257,20 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
-                          href="/234"
+                          data-discover="true"
+                          href="#/234"
                         >
                           <img
-                            src="gamepad.jpg"
+                            src="/src/assets/images/gamepad.jpg"
                           />
                         </a>
                       </div>
@@ -347,19 +353,20 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
-                          href="/345"
+                          data-discover="true"
+                          href="#/345"
                         >
                           <img
-                            src="portable-ssd.jpg"
+                            src="/src/assets/images/portable-ssd.jpg"
                           />
                         </a>
                       </div>
@@ -443,22 +450,23 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="ant-row css-dev-only-do-not-override-yp8pcc"
+                  class="ant-row css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
-                          href="/456"
+                          data-discover="true"
+                          href="#/456"
                         >
                           <img
-                            src="laptop.jpg"
+                            src="/src/assets/images/laptop.jpg"
                           />
                         </a>
                       </div>
@@ -541,19 +549,20 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
-                          href="/567"
+                          data-discover="true"
+                          href="#/567"
                         >
                           <img
-                            src="smartwatch.jpg"
+                            src="/src/assets/images/smartwatch.jpg"
                           />
                         </a>
                       </div>
@@ -636,19 +645,20 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
-                          href="/678"
+                          data-discover="true"
+                          href="#/678"
                         >
                           <img
-                            src="wireless-headphones.jpg"
+                            src="/src/assets/images/wireless-headphones.jpg"
                           />
                         </a>
                       </div>
@@ -735,12 +745,14 @@ Object {
             </div>
           </main>
           <footer
-            class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
           >
             <div
               class="footer"
             >
-              <h1>
+              <h1
+                aria-describedby="test-id"
+              >
                 <span
                   aria-label="tags"
                   class="anticon anticon-tags"
@@ -764,7 +776,9 @@ Object {
                  
                 6
               </h1>
-              <h1>
+              <h1
+                aria-describedby="test-id"
+              >
                 <span
                   aria-label="star"
                   class="anticon anticon-star"
@@ -790,28 +804,29 @@ Object {
               </h1>
             </div>
           </footer>
-        </section>
-      </section>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <section
-      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
+    <div
+      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
         style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
       >
         <div
           class="ant-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-yp8pcc"
+            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
             data-menu-list="true"
             role="menu"
             tabindex="0"
           >
             <li
+              aria-describedby="test-id"
               class="ant-menu-item ant-menu-item-selected"
               data-menu-id="rc-menu-uuid-test-1"
               role="menuitem"
@@ -841,13 +856,15 @@ Object {
                 class="ant-menu-title-content"
               >
                 <a
-                  href="/"
+                  data-discover="true"
+                  href="#/"
                 >
                   Product Catalog
                 </a>
               </span>
             </li>
             <li
+              aria-describedby="test-id"
               class="ant-menu-item"
               data-menu-id="rc-menu-uuid-test-2"
               role="menuitem"
@@ -877,7 +894,8 @@ Object {
                 class="ant-menu-title-content"
               >
                 <a
-                  href="/favorites"
+                  data-discover="true"
+                  href="#/favorites"
                 >
                   Favorites
                 </a>
@@ -914,11 +932,11 @@ Object {
           </span>
         </div>
       </aside>
-      <section
-        class="ant-layout css-dev-only-do-not-override-yp8pcc"
+      <div
+        class="ant-layout css-dev-only-do-not-override-19lec04"
       >
         <header
-          class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
         >
           <div
             class="header"
@@ -929,37 +947,38 @@ Object {
               Infinite Scroll Item List
             </h1>
             <img
-              src="scroll.png"
+              src="/src/assets/icons/scroll.png"
               width="70"
             />
           </div>
         </header>
         <main
-          class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
         >
           <div
-            class="ant-row product-catalog css-dev-only-do-not-override-yp8pcc"
+            class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-col ant-col-24 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-row css-dev-only-do-not-override-yp8pcc"
+                class="ant-row css-dev-only-do-not-override-19lec04"
               >
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
-                        href="/123"
+                        data-discover="true"
+                        href="#/123"
                       >
                         <img
-                          src="bluetooth-speaker.jpg"
+                          src="/src/assets/images/bluetooth-speaker.jpg"
                         />
                       </a>
                     </div>
@@ -1042,19 +1061,20 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
-                        href="/234"
+                        data-discover="true"
+                        href="#/234"
                       >
                         <img
-                          src="gamepad.jpg"
+                          src="/src/assets/images/gamepad.jpg"
                         />
                       </a>
                     </div>
@@ -1137,19 +1157,20 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
-                        href="/345"
+                        data-discover="true"
+                        href="#/345"
                       >
                         <img
-                          src="portable-ssd.jpg"
+                          src="/src/assets/images/portable-ssd.jpg"
                         />
                       </a>
                     </div>
@@ -1233,22 +1254,23 @@ Object {
                 </div>
               </div>
               <div
-                class="ant-row css-dev-only-do-not-override-yp8pcc"
+                class="ant-row css-dev-only-do-not-override-19lec04"
               >
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
-                        href="/456"
+                        data-discover="true"
+                        href="#/456"
                       >
                         <img
-                          src="laptop.jpg"
+                          src="/src/assets/images/laptop.jpg"
                         />
                       </a>
                     </div>
@@ -1331,19 +1353,20 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
-                        href="/567"
+                        data-discover="true"
+                        href="#/567"
                       >
                         <img
-                          src="smartwatch.jpg"
+                          src="/src/assets/images/smartwatch.jpg"
                         />
                       </a>
                     </div>
@@ -1426,19 +1449,20 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
-                        href="/678"
+                        data-discover="true"
+                        href="#/678"
                       >
                         <img
-                          src="wireless-headphones.jpg"
+                          src="/src/assets/images/wireless-headphones.jpg"
                         />
                       </a>
                     </div>
@@ -1525,12 +1549,14 @@ Object {
           </div>
         </main>
         <footer
-          class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
         >
           <div
             class="footer"
           >
-            <h1>
+            <h1
+              aria-describedby="test-id"
+            >
               <span
                 aria-label="tags"
                 class="anticon anticon-tags"
@@ -1554,7 +1580,9 @@ Object {
                
               6
             </h1>
-            <h1>
+            <h1
+              aria-describedby="test-id"
+            >
               <span
                 aria-label="star"
                 class="anticon anticon-star"
@@ -1580,8 +1608,8 @@ Object {
             </h1>
           </div>
         </footer>
-      </section>
-    </section>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

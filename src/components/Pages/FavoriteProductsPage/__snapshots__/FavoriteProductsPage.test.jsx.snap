@@ -1,27 +1,28 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render FavoriteProductsPage component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
+      <div
+        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
       >
         <aside
-          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
           style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
         >
           <div
             class="ant-layout-sider-children"
           >
             <ul
-              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-yp8pcc"
+              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
               data-menu-list="true"
               role="menu"
               tabindex="0"
             >
               <li
+                aria-describedby="test-id"
                 class="ant-menu-item ant-menu-item-selected"
                 data-menu-id="rc-menu-uuid-test-1"
                 role="menuitem"
@@ -51,6 +52,7 @@ Object {
                   class="ant-menu-title-content"
                 >
                   <a
+                    data-discover="true"
                     href="/"
                   >
                     Product Catalog
@@ -58,6 +60,7 @@ Object {
                 </span>
               </li>
               <li
+                aria-describedby="test-id"
                 class="ant-menu-item"
                 data-menu-id="rc-menu-uuid-test-2"
                 role="menuitem"
@@ -87,6 +90,7 @@ Object {
                   class="ant-menu-title-content"
                 >
                   <a
+                    data-discover="true"
                     href="/favorites"
                   >
                     Favorites
@@ -124,11 +128,11 @@ Object {
             </span>
           </div>
         </aside>
-        <section
-          class="ant-layout css-dev-only-do-not-override-yp8pcc"
+        <div
+          class="ant-layout css-dev-only-do-not-override-19lec04"
         >
           <header
-            class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
           >
             <div
               class="header"
@@ -139,19 +143,20 @@ Object {
                 Infinite Scroll Item List
               </h1>
               <img
-                src="scroll.png"
+                src="/src/assets/icons/scroll.png"
                 width="70"
               />
             </div>
           </header>
           <main
-            class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-row product-catalog css-dev-only-do-not-override-yp8pcc"
+              class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
             >
               <button
-                class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-primary filter-btn"
+                aria-describedby="test-id"
+                class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-primary ant-btn-color-primary ant-btn-variant-solid filter-btn"
                 type="button"
               >
                 <span
@@ -175,7 +180,8 @@ Object {
                 </span>
               </button>
               <button
-                class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-primary ant-btn-dangerous filter-btn"
+                aria-describedby="test-id"
+                class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-primary ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-solid filter-btn"
                 type="button"
               >
                 <span
@@ -187,37 +193,39 @@ Object {
                     aria-hidden="true"
                     data-icon="close-circle"
                     fill="currentColor"
+                    fill-rule="evenodd"
                     focusable="false"
                     height="1em"
                     viewBox="64 64 896 896"
                     width="1em"
                   >
                     <path
-                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 01-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
                     />
                   </svg>
                 </span>
               </button>
               <div
-                class="ant-col ant-col-24 css-dev-only-do-not-override-yp8pcc"
+                class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
               >
                 <div
-                  class="ant-row css-dev-only-do-not-override-yp8pcc"
+                  class="ant-row css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
+                          data-discover="true"
                           href="/123"
                         >
                           <img
-                            src="bluetooth-speaker.jpg"
+                            src="/src/assets/images/bluetooth-speaker.jpg"
                           />
                         </a>
                       </div>
@@ -300,19 +308,20 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                    class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                   >
                     <div
-                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                      class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                     >
                       <div
                         class="ant-card-cover"
                       >
                         <a
+                          data-discover="true"
                           href="/234"
                         >
                           <img
-                            src="gamepad.jpg"
+                            src="/src/assets/images/gamepad.jpg"
                           />
                         </a>
                       </div>
@@ -399,12 +408,14 @@ Object {
             </div>
           </main>
           <footer
-            class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
           >
             <div
               class="footer"
             >
-              <h1>
+              <h1
+                aria-describedby="test-id"
+              >
                 <span
                   aria-label="tags"
                   class="anticon anticon-tags"
@@ -428,7 +439,9 @@ Object {
                  
                 6
               </h1>
-              <h1>
+              <h1
+                aria-describedby="test-id"
+              >
                 <span
                   aria-label="star"
                   class="anticon anticon-star"
@@ -454,28 +467,29 @@ Object {
               </h1>
             </div>
           </footer>
-        </section>
-      </section>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <section
-      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
+    <div
+      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
         style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
       >
         <div
           class="ant-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-yp8pcc"
+            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
             data-menu-list="true"
             role="menu"
             tabindex="0"
           >
             <li
+              aria-describedby="test-id"
               class="ant-menu-item ant-menu-item-selected"
               data-menu-id="rc-menu-uuid-test-1"
               role="menuitem"
@@ -505,6 +519,7 @@ Object {
                 class="ant-menu-title-content"
               >
                 <a
+                  data-discover="true"
                   href="/"
                 >
                   Product Catalog
@@ -512,6 +527,7 @@ Object {
               </span>
             </li>
             <li
+              aria-describedby="test-id"
               class="ant-menu-item"
               data-menu-id="rc-menu-uuid-test-2"
               role="menuitem"
@@ -541,6 +557,7 @@ Object {
                 class="ant-menu-title-content"
               >
                 <a
+                  data-discover="true"
                   href="/favorites"
                 >
                   Favorites
@@ -578,11 +595,11 @@ Object {
           </span>
         </div>
       </aside>
-      <section
-        class="ant-layout css-dev-only-do-not-override-yp8pcc"
+      <div
+        class="ant-layout css-dev-only-do-not-override-19lec04"
       >
         <header
-          class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
         >
           <div
             class="header"
@@ -593,19 +610,20 @@ Object {
               Infinite Scroll Item List
             </h1>
             <img
-              src="scroll.png"
+              src="/src/assets/icons/scroll.png"
               width="70"
             />
           </div>
         </header>
         <main
-          class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
         >
           <div
-            class="ant-row product-catalog css-dev-only-do-not-override-yp8pcc"
+            class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
           >
             <button
-              class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-primary filter-btn"
+              aria-describedby="test-id"
+              class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-primary ant-btn-color-primary ant-btn-variant-solid filter-btn"
               type="button"
             >
               <span
@@ -629,7 +647,8 @@ Object {
               </span>
             </button>
             <button
-              class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-primary ant-btn-dangerous filter-btn"
+              aria-describedby="test-id"
+              class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-primary ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-solid filter-btn"
               type="button"
             >
               <span
@@ -641,37 +660,39 @@ Object {
                   aria-hidden="true"
                   data-icon="close-circle"
                   fill="currentColor"
+                  fill-rule="evenodd"
                   focusable="false"
                   height="1em"
                   viewBox="64 64 896 896"
                   width="1em"
                 >
                   <path
-                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 01-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
                   />
                 </svg>
               </span>
             </button>
             <div
-              class="ant-col ant-col-24 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-row css-dev-only-do-not-override-yp8pcc"
+                class="ant-row css-dev-only-do-not-override-19lec04"
               >
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
+                        data-discover="true"
                         href="/123"
                       >
                         <img
-                          src="bluetooth-speaker.jpg"
+                          src="/src/assets/images/bluetooth-speaker.jpg"
                         />
                       </a>
                     </div>
@@ -754,19 +775,20 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+                  class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
                 >
                   <div
-                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                    class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
                   >
                     <div
                       class="ant-card-cover"
                     >
                       <a
+                        data-discover="true"
                         href="/234"
                       >
                         <img
-                          src="gamepad.jpg"
+                          src="/src/assets/images/gamepad.jpg"
                         />
                       </a>
                     </div>
@@ -853,12 +875,14 @@ Object {
           </div>
         </main>
         <footer
-          class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
         >
           <div
             class="footer"
           >
-            <h1>
+            <h1
+              aria-describedby="test-id"
+            >
               <span
                 aria-label="tags"
                 class="anticon anticon-tags"
@@ -882,7 +906,9 @@ Object {
                
               6
             </h1>
-            <h1>
+            <h1
+              aria-describedby="test-id"
+            >
               <span
                 aria-label="star"
                 class="anticon anticon-star"
@@ -908,8 +934,8 @@ Object {
             </h1>
           </div>
         </footer>
-      </section>
-    </section>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,24 +1,24 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render ProductPage component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="ant-row product-row css-dev-only-do-not-override-yp8pcc"
+        class="ant-row product-row css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-yp8pcc"
+          class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-19lec04"
         >
           <img
-            src="bluetooth-speaker.jpg"
+            src="/src/assets/images/bluetooth-speaker.jpg"
           />
           <div
             class="summary"
           >
             <span
-              class="ant-tag ant-tag-has-color css-dev-only-do-not-override-yp8pcc"
+              class="ant-tag ant-tag-has-color css-dev-only-do-not-override-19lec04"
               style="background-color: rgb(16, 142, 233);"
             >
               <h1
@@ -37,10 +37,11 @@ Object {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <a
+              data-discover="true"
               href="/"
             >
               <button
-                class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                 type="button"
               >
                 <span>
@@ -55,19 +56,19 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="ant-row product-row css-dev-only-do-not-override-yp8pcc"
+      class="ant-row product-row css-dev-only-do-not-override-19lec04"
     >
       <div
-        class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-yp8pcc"
+        class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-19lec04"
       >
         <img
-          src="bluetooth-speaker.jpg"
+          src="/src/assets/images/bluetooth-speaker.jpg"
         />
         <div
           class="summary"
         >
           <span
-            class="ant-tag ant-tag-has-color css-dev-only-do-not-override-yp8pcc"
+            class="ant-tag ant-tag-has-color css-dev-only-do-not-override-19lec04"
             style="background-color: rgb(16, 142, 233);"
           >
             <h1
@@ -86,10 +87,11 @@ Object {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <a
+            data-discover="true"
             href="/"
           >
             <button
-              class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+              class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
               type="button"
             >
               <span>
@@ -156,18 +158,18 @@ Object {
 `;
 
 exports[`should render ProductPage component for non-existent item 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="ant-row product-row css-dev-only-do-not-override-yp8pcc"
+        class="ant-row product-row css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="ant-col ant-col-md-24 css-dev-only-do-not-override-yp8pcc"
+          class="ant-col ant-col-md-24 css-dev-only-do-not-override-19lec04"
         >
           <div
-            class="css-dev-only-do-not-override-yp8pcc ant-empty"
+            class="css-dev-only-do-not-override-19lec04 ant-empty"
           >
             <div
               class="ant-empty-image"
@@ -178,6 +180,9 @@ Object {
                 width="184"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <title>
+                  No data
+                </title>
                 <g
                   fill="none"
                   fill-rule="evenodd"
@@ -242,10 +247,11 @@ Object {
                   No item found
                 </h1>
                 <a
+                  data-discover="true"
                   href="/"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                    class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                     type="button"
                   >
                     <span>
@@ -262,13 +268,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="ant-row product-row css-dev-only-do-not-override-yp8pcc"
+      class="ant-row product-row css-dev-only-do-not-override-19lec04"
     >
       <div
-        class="ant-col ant-col-md-24 css-dev-only-do-not-override-yp8pcc"
+        class="ant-col ant-col-md-24 css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="css-dev-only-do-not-override-yp8pcc ant-empty"
+          class="css-dev-only-do-not-override-19lec04 ant-empty"
         >
           <div
             class="ant-empty-image"
@@ -279,6 +285,9 @@ Object {
               width="184"
               xmlns="http://www.w3.org/2000/svg"
             >
+              <title>
+                No data
+              </title>
               <g
                 fill="none"
                 fill-rule="evenodd"
@@ -343,10 +352,11 @@ Object {
                 No item found
               </h1>
               <a
+                data-discover="true"
                 href="/"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-yp8pcc ant-btn-default"
+                  class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                   type="button"
                 >
                   <span>

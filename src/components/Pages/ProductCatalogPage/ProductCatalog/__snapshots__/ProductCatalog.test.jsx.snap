@@ -1,33 +1,34 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render ProductCatalog component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="ant-row product-catalog css-dev-only-do-not-override-yp8pcc"
+        class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="ant-col ant-col-24 css-dev-only-do-not-override-yp8pcc"
+          class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
         >
           <div
-            class="ant-row css-dev-only-do-not-override-yp8pcc"
+            class="ant-row css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
               >
                 <div
                   class="ant-card-cover"
                 >
                   <a
+                    data-discover="true"
                     href="/123"
                   >
                     <img
-                      src="bluetooth-speaker.jpg"
+                      src="/src/assets/images/bluetooth-speaker.jpg"
                     />
                   </a>
                 </div>
@@ -110,19 +111,20 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
               >
                 <div
                   class="ant-card-cover"
                 >
                   <a
+                    data-discover="true"
                     href="/234"
                   >
                     <img
-                      src="gamepad.jpg"
+                      src="/src/assets/images/gamepad.jpg"
                     />
                   </a>
                 </div>
@@ -205,19 +207,20 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
               >
                 <div
                   class="ant-card-cover"
                 >
                   <a
+                    data-discover="true"
                     href="/345"
                   >
                     <img
-                      src="portable-ssd.jpg"
+                      src="/src/assets/images/portable-ssd.jpg"
                     />
                   </a>
                 </div>
@@ -301,22 +304,23 @@ Object {
             </div>
           </div>
           <div
-            class="ant-row css-dev-only-do-not-override-yp8pcc"
+            class="ant-row css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
               >
                 <div
                   class="ant-card-cover"
                 >
                   <a
+                    data-discover="true"
                     href="/456"
                   >
                     <img
-                      src="laptop.jpg"
+                      src="/src/assets/images/laptop.jpg"
                     />
                   </a>
                 </div>
@@ -399,19 +403,20 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
               >
                 <div
                   class="ant-card-cover"
                 >
                   <a
+                    data-discover="true"
                     href="/567"
                   >
                     <img
-                      src="smartwatch.jpg"
+                      src="/src/assets/images/smartwatch.jpg"
                     />
                   </a>
                 </div>
@@ -494,19 +499,20 @@ Object {
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
               >
                 <div
                   class="ant-card-cover"
                 >
                   <a
+                    data-discover="true"
                     href="/678"
                   >
                     <img
-                      src="wireless-headphones.jpg"
+                      src="/src/assets/images/wireless-headphones.jpg"
                     />
                   </a>
                 </div>
@@ -595,28 +601,29 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="ant-row product-catalog css-dev-only-do-not-override-yp8pcc"
+      class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
     >
       <div
-        class="ant-col ant-col-24 css-dev-only-do-not-override-yp8pcc"
+        class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="ant-row css-dev-only-do-not-override-yp8pcc"
+          class="ant-row css-dev-only-do-not-override-19lec04"
         >
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
             >
               <div
                 class="ant-card-cover"
               >
                 <a
+                  data-discover="true"
                   href="/123"
                 >
                   <img
-                    src="bluetooth-speaker.jpg"
+                    src="/src/assets/images/bluetooth-speaker.jpg"
                   />
                 </a>
               </div>
@@ -699,19 +706,20 @@ Object {
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
             >
               <div
                 class="ant-card-cover"
               >
                 <a
+                  data-discover="true"
                   href="/234"
                 >
                   <img
-                    src="gamepad.jpg"
+                    src="/src/assets/images/gamepad.jpg"
                   />
                 </a>
               </div>
@@ -794,19 +802,20 @@ Object {
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
             >
               <div
                 class="ant-card-cover"
               >
                 <a
+                  data-discover="true"
                   href="/345"
                 >
                   <img
-                    src="portable-ssd.jpg"
+                    src="/src/assets/images/portable-ssd.jpg"
                   />
                 </a>
               </div>
@@ -890,22 +899,23 @@ Object {
           </div>
         </div>
         <div
-          class="ant-row css-dev-only-do-not-override-yp8pcc"
+          class="ant-row css-dev-only-do-not-override-19lec04"
         >
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
             >
               <div
                 class="ant-card-cover"
               >
                 <a
+                  data-discover="true"
                   href="/456"
                 >
                   <img
-                    src="laptop.jpg"
+                    src="/src/assets/images/laptop.jpg"
                   />
                 </a>
               </div>
@@ -988,19 +998,20 @@ Object {
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
             >
               <div
                 class="ant-card-cover"
               >
                 <a
+                  data-discover="true"
                   href="/567"
                 >
                   <img
-                    src="smartwatch.jpg"
+                    src="/src/assets/images/smartwatch.jpg"
                   />
                 </a>
               </div>
@@ -1083,19 +1094,20 @@ Object {
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
             >
               <div
                 class="ant-card-cover"
               >
                 <a
+                  data-discover="true"
                   href="/678"
                 >
                   <img
-                    src="wireless-headphones.jpg"
+                    src="/src/assets/images/wireless-headphones.jpg"
                   />
                 </a>
               </div>

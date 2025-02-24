@@ -10,4 +10,14 @@ const store = configureStore({
   }
 })
 
+export const setupStore = preloadedState => {
+  return configureStore({
+    reducer: {
+      items: itemsReducer,
+      filters: filtersReducer
+    },
+    preloadedState
+  })
+}
+
 export default store

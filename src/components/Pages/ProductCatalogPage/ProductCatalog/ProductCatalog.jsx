@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { selectItemRows } from 'selectors/itemRowsSelector'
+import { selectItemRows, createRows } from 'selectors/itemRowsSelector'
 
 import { fetchItems } from 'slices/itemsSlice'
 
@@ -11,7 +11,7 @@ import ProductItem from 'components/ProductItem'
 import './ProductCatalog.scss'
 
 const ProductCatalog = () => {
-  const itemRows = useSelector(selectItemRows)
+  const itemRows = createRows(useSelector(selectItemRows))
   const dispatch = useDispatch()
 
   const targetRef = useRef()

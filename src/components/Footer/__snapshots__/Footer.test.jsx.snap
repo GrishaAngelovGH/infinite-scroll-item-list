@@ -1,14 +1,16 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render Footer component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
         class="footer"
       >
-        <h1>
+        <h1
+          aria-describedby="test-id"
+        >
           <span
             aria-label="tags"
             class="anticon anticon-tags"
@@ -32,7 +34,9 @@ Object {
            
           6
         </h1>
-        <h1>
+        <h1
+          aria-describedby="test-id"
+        >
           <span
             aria-label="star"
             class="anticon anticon-star"
@@ -63,7 +67,9 @@ Object {
     <div
       class="footer"
     >
-      <h1>
+      <h1
+        aria-describedby="test-id"
+      >
         <span
           aria-label="tags"
           class="anticon anticon-tags"
@@ -87,7 +93,9 @@ Object {
          
         6
       </h1>
-      <h1>
+      <h1
+        aria-describedby="test-id"
+      >
         <span
           aria-label="star"
           class="anticon anticon-star"

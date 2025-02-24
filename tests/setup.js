@@ -1,9 +1,30 @@
-import configureStore from 'redux-mock-store'
-import thunk from 'redux-thunk'
+import { afterEach } from 'vitest'
+import { cleanup } from '@testing-library/react'
+import '@testing-library/jest-dom/vitest'
+import { vi } from 'vitest'
+import { setupStore } from 'store'
 
-const mockStore = configureStore([thunk])
+global.matchMedia = global.matchMedia || function () {
+  return {
+    addListener: vi.fn(),
+    removeListener: vi.fn()
+  }
+}
 
-const store = mockStore({
+global.IntersectionObserver = function () {
+  return {
+    observe: vi.fn(),
+    unobserve: vi.fn()
+  }
+}
+
+global.getComputedStyle = () => {
+  return {
+    getPropertyValue: () => ''
+  }
+}
+
+global.mockStore = setupStore({
   items: {
     123: { id: 123, title: 'Bluetooth Speaker', image: 'bluetooth-speaker.jpg', price: 123.45, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 1, isFavorite: true },
     234: { id: 234, title: 'Gamepad', image: 'gamepad.jpg', price: 234.56, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 2, isFavorite: true },
@@ -18,4 +39,7 @@ const store = mockStore({
   }
 })
 
-export default store
+// runs a clean after each test case (e.g. clearing jsdom)
+afterEach(() => {
+  cleanup();
+})

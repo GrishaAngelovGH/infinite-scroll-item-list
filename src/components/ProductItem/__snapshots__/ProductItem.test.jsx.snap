@@ -1,24 +1,25 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render ProductItem component marked as favorite 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+        class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+          class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
         >
           <div
             class="ant-card-cover"
           >
             <a
+              data-discover="true"
               href="/123"
             >
               <img
-                src="smartwatch.jpg"
+                src="/src/assets/images/smartwatch.jpg"
               />
             </a>
           </div>
@@ -104,19 +105,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+      class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
     >
       <div
-        class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+        class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
       >
         <div
           class="ant-card-cover"
         >
           <a
+            data-discover="true"
             href="/123"
           >
             <img
-              src="smartwatch.jpg"
+              src="/src/assets/images/smartwatch.jpg"
             />
           </a>
         </div>
@@ -254,24 +256,25 @@ Object {
 `;
 
 exports[`should render ProductItem component not marked as favorite 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+        class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
       >
         <div
-          class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+          class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
         >
           <div
             class="ant-card-cover"
           >
             <a
+              data-discover="true"
               href="/123"
             >
               <img
-                src="smartwatch.jpg"
+                src="/src/assets/images/smartwatch.jpg"
               />
             </a>
           </div>
@@ -357,19 +360,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-yp8pcc"
+      class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
     >
       <div
-        class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-yp8pcc"
+        class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
       >
         <div
           class="ant-card-cover"
         >
           <a
+            data-discover="true"
             href="/123"
           >
             <img
-              src="smartwatch.jpg"
+              src="/src/assets/images/smartwatch.jpg"
             />
           </a>
         </div>

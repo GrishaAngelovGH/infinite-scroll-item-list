@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react'
 
-import store from 'mockstore'
 import { Provider } from 'react-redux'
 
 import {
@@ -13,7 +12,7 @@ import ProductItem from './ProductItem'
 
 test('should render ProductItem component not marked as favorite', () => {
   const view = render(
-    <Provider store={store}>
+    <Provider store={mockStore}>
       <Router>
         <Routes>
           <Route
@@ -39,7 +38,7 @@ test('should render ProductItem component not marked as favorite', () => {
 
 test('should render ProductItem component marked as favorite', () => {
   const view = render(
-    <Provider store={store}>
+    <Provider store={mockStore}>
       <Router>
         <Routes>
           <Route

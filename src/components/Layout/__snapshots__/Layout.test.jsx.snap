@@ -1,27 +1,28 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render Layout component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
+      <div
+        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
       >
         <aside
-          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
           style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
         >
           <div
             class="ant-layout-sider-children"
           >
             <ul
-              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-yp8pcc"
+              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
               data-menu-list="true"
               role="menu"
               tabindex="0"
             >
               <li
+                aria-describedby="test-id"
                 class="ant-menu-item ant-menu-item-selected"
                 data-menu-id="rc-menu-uuid-test-1"
                 role="menuitem"
@@ -51,6 +52,7 @@ Object {
                   class="ant-menu-title-content"
                 >
                   <a
+                    data-discover="true"
                     href="/"
                   >
                     Product Catalog
@@ -58,6 +60,7 @@ Object {
                 </span>
               </li>
               <li
+                aria-describedby="test-id"
                 class="ant-menu-item"
                 data-menu-id="rc-menu-uuid-test-2"
                 role="menuitem"
@@ -87,6 +90,7 @@ Object {
                   class="ant-menu-title-content"
                 >
                   <a
+                    data-discover="true"
                     href="/favorites"
                   >
                     Favorites
@@ -124,48 +128,49 @@ Object {
             </span>
           </div>
         </aside>
-        <section
-          class="ant-layout css-dev-only-do-not-override-yp8pcc"
+        <div
+          class="ant-layout css-dev-only-do-not-override-19lec04"
         >
           <header
-            class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
           >
             <div>
               Header
             </div>
           </header>
           <main
-            class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
           >
             <div>
               Content
             </div>
           </main>
           <footer
-            class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
+            class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
           />
-        </section>
-      </section>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <section
-      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-yp8pcc"
+    <div
+      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
         style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
       >
         <div
           class="ant-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-yp8pcc"
+            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
             data-menu-list="true"
             role="menu"
             tabindex="0"
           >
             <li
+              aria-describedby="test-id"
               class="ant-menu-item ant-menu-item-selected"
               data-menu-id="rc-menu-uuid-test-1"
               role="menuitem"
@@ -195,6 +200,7 @@ Object {
                 class="ant-menu-title-content"
               >
                 <a
+                  data-discover="true"
                   href="/"
                 >
                   Product Catalog
@@ -202,6 +208,7 @@ Object {
               </span>
             </li>
             <li
+              aria-describedby="test-id"
               class="ant-menu-item"
               data-menu-id="rc-menu-uuid-test-2"
               role="menuitem"
@@ -231,6 +238,7 @@ Object {
                 class="ant-menu-title-content"
               >
                 <a
+                  data-discover="true"
                   href="/favorites"
                 >
                   Favorites
@@ -268,28 +276,28 @@ Object {
           </span>
         </div>
       </aside>
-      <section
-        class="ant-layout css-dev-only-do-not-override-yp8pcc"
+      <div
+        class="ant-layout css-dev-only-do-not-override-19lec04"
       >
         <header
-          class="ant-layout-header layout__header css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
         >
           <div>
             Header
           </div>
         </header>
         <main
-          class="ant-layout-content layout__content css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
         >
           <div>
             Content
           </div>
         </main>
         <footer
-          class="ant-layout-footer layout__footer css-dev-only-do-not-override-yp8pcc"
+          class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
         />
-      </section>
-    </section>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

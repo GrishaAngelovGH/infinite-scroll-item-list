@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect'
 
-const createRows = items => {
+export const createRows = items => {
   let itemsCpy = [...items]
   const rows = []
 
@@ -12,23 +12,37 @@ const createRows = items => {
   return rows
 }
 
+const selectItems = (state) => state.items
+const selectFilters = (state) => state.filters
+
+const selectItemValues = createSelector(
+  [selectItems],
+  (items) => Object.values(items)
+)
+
+const selectFavoriteItems = createSelector(
+  [selectItemValues],
+  (items) => items.filter(item => item.isFavorite)
+)
+
+const selectFilteredFavoriteItems = createSelector(
+  [selectFavoriteItems, selectFilters],
+  (favoriteItems, filters) => {
+    const { criteria, price } = filters
+    const lowerCaseCriteria = criteria.toLowerCase()
+
+    return favoriteItems
+      .filter(item => item.title.toLowerCase().includes(lowerCaseCriteria))
+      .filter(item => item.price <= price)
+  }
+)
+
 export const selectItemRows = createSelector(
-  (state) => state.items,
-  (items) => createRows(Object.values(items))
+  [selectItemValues],
+  (items) => items
 )
 
 export const selectFavoriteItemRowsByFilter = createSelector(
-  (state) => state,
-  (state) => {
-    const criteria = state.filters.criteria.toLowerCase()
-    const price = state.filters.price
-
-    const favoriteItems = Object.values(state.items).filter(v => v.isFavorite)
-
-    const filteredItems = favoriteItems
-      .filter(v => v.title.toLowerCase().includes(criteria))
-      .filter(v => v.price <= price)
-
-    return createRows(filteredItems)
-  }
+  [selectFilteredFavoriteItems],
+  (filteredItems) => filteredItems
 )

@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react'
 
-import store from 'mockstore'
 import { Provider } from 'react-redux'
 
 import {
@@ -13,7 +12,7 @@ import ProductCatalog from './ProductCatalog'
 
 test('should render ProductCatalog component', () => {
   const view = render(
-    <Provider store={store}>
+    <Provider store={mockStore}>
       <Router>
         <Routes>
           <Route
