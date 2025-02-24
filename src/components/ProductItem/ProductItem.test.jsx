@@ -12,7 +12,7 @@ import ProductItem from './ProductItem'
 
 test('should render ProductItem component not marked as favorite', () => {
   const view = render(
-    <Provider store={mockStore}>
+    <Provider store={globalThis.mockStore}>
       <Router>
         <Routes>
           <Route
@@ -38,7 +38,7 @@ test('should render ProductItem component not marked as favorite', () => {
 
 test('should render ProductItem component marked as favorite', () => {
   const view = render(
-    <Provider store={mockStore}>
+    <Provider store={globalThis.mockStore}>
       <Router>
         <Routes>
           <Route

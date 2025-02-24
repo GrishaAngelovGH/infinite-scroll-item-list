@@ -7,7 +7,7 @@ import App from './App'
 test('should render App component', async () => {
   await waitFor(() => {
     const view = render(
-      <Provider store={mockStore}>
+      <Provider store={globalThis.mockStore}>
         <App />
       </Provider>
     )

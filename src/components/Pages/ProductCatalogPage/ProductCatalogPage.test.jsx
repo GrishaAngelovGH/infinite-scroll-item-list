@@ -13,7 +13,7 @@ import ProductCatalogPage from './ProductCatalogPage'
 test('should render ProductCatalogPage component', async () => {
   await waitFor(() => {
     const view = render(
-      <Provider store={mockStore}>
+      <Provider store={globalThis.mockStore}>
         <Router>
           <Routes>
             <Route

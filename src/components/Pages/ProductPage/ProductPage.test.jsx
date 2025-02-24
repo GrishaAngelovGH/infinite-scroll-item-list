@@ -13,7 +13,7 @@ import ProductPage from './ProductPage'
 test('should render ProductPage component', async () => {
   await waitFor(() => {
     const view = render(
-      <Provider store={mockStore}>
+      <Provider store={globalThis.mockStore}>
         <Router>
           <Routes>
             <Route
@@ -32,7 +32,7 @@ test('should render ProductPage component', async () => {
 test('should render ProductPage component for non-existent item', async () => {
   await waitFor(() => {
     const view = render(
-      <Provider store={mockStore}>
+      <Provider store={globalThis.mockStore}>
         <Router>
           <Routes>
             <Route

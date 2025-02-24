@@ -13,7 +13,7 @@ import Products from './Products'
 test('should render Products component', async () => {
   await waitFor(() => {
     const view = render(
-      <Provider store={mockStore}>
+      <Provider store={globalThis.mockStore}>
         <Router>
           <Routes>
             <Route

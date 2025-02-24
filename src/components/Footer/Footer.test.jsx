@@ -6,7 +6,7 @@ import Footer from './Footer'
 
 test('should render Footer component', () => {
   const view = render(
-    <Provider store={mockStore}>
+    <Provider store={globalThis.mockStore}>
       <Footer />
     </Provider>
   )

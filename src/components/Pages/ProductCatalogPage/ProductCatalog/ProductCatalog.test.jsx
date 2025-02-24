@@ -12,7 +12,7 @@ import ProductCatalog from './ProductCatalog'
 
 test('should render ProductCatalog component', () => {
   const view = render(
-    <Provider store={mockStore}>
+    <Provider store={globalThis.mockStore}>
       <Router>
         <Routes>
           <Route

@@ -13,7 +13,7 @@ import FavoriteProductsPage from './FavoriteProductsPage'
 test('should render FavoriteProductsPage component', async () => {
   await waitFor(() => {
     const view = render(
-      <Provider store={mockStore}>
+      <Provider store={globalThis.mockStore}>
         <Router>
           <Routes>
             <Route

@@ -4,27 +4,27 @@ import '@testing-library/jest-dom/vitest'
 import { vi } from 'vitest'
 import { setupStore } from 'store'
 
-global.matchMedia = global.matchMedia || function () {
+globalThis.matchMedia = globalThis.matchMedia || function () {
   return {
     addListener: vi.fn(),
     removeListener: vi.fn()
   }
 }
 
-global.IntersectionObserver = function () {
+globalThis.IntersectionObserver = function () {
   return {
     observe: vi.fn(),
     unobserve: vi.fn()
   }
 }
 
-global.getComputedStyle = () => {
+globalThis.getComputedStyle = () => {
   return {
     getPropertyValue: () => ''
   }
 }
 
-global.mockStore = setupStore({
+globalThis.mockStore = setupStore({
   items: {
     123: { id: 123, title: 'Bluetooth Speaker', image: 'bluetooth-speaker.jpg', price: 123.45, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 1, isFavorite: true },
     234: { id: 234, title: 'Gamepad', image: 'gamepad.jpg', price: 234.56, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', number: 2, isFavorite: true },

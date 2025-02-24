@@ -18,31 +18,39 @@ const ProductCatalog = () => {
 
   const items = itemRows.flat()
 
-  const options = {
-    root: null, // watch for intersection relative to the device's viewport
-    rootMargin: '0px',
-    threshold: 0.5
-  }
-
-  const observer = new IntersectionObserver(entries => {
-    const [entry] = entries
-
-    entry.isIntersecting && dispatch(fetchItems())
-  }, options)
+  useEffect(() => {
+    if (!items.length) {
+      dispatch(fetchItems())
+    }
+  }, [dispatch, items.length])
 
   useEffect(() => {
-    !items.length && dispatch(fetchItems())
-  }, [])
+    const options = {
+      root: null, // watch for intersection relative to the device's viewport
+      rootMargin: '0px',
+      threshold: 0.5,
+    }
 
-  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      const [entry] = entries
+
+      if (entry.isIntersecting) {
+        dispatch(fetchItems())
+      }
+    }, options)
+
     const currentRef = targetRef.current
 
-    currentRef && observer.observe(currentRef)
+    if (currentRef) {
+      observer.observe(currentRef)
+    }
 
     return () => {
-      currentRef && observer.unobserve(currentRef)
+      if (currentRef) {
+        observer.unobserve(currentRef)
+      }
     }
-  }, [items])
+  }, [items, dispatch])
 
   const lastItemId = items[items.length - 1]?.id
 
