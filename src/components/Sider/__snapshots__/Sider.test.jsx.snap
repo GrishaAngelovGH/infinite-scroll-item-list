@@ -6,14 +6,14 @@ exports[`should render ApSiderp component 1`] = `
   "baseElement": <body>
     <div>
       <aside
-        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
+        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-1odpy5d"
         style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
       >
         <div
           class="ant-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
+            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-1odpy5d"
             data-menu-list="true"
             role="menu"
             tabindex="0"
@@ -129,14 +129,14 @@ exports[`should render ApSiderp component 1`] = `
   </body>,
   "container": <div>
     <aside
-      class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
+      class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-1odpy5d"
       style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
     >
       <div
         class="ant-layout-sider-children"
       >
         <ul
-          class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
+          class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-1odpy5d"
           data-menu-list="true"
           role="menu"
           tabindex="0"

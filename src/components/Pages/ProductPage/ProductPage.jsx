@@ -1,5 +1,6 @@
 import { Button, Col, Empty, Row, Tag } from 'antd'
 import { useSelector } from 'react-redux'
+import { selectItems } from 'selectors/itemRowsSelector'
 import { Link } from 'react-router-dom'
 
 import images from 'images'
@@ -7,7 +8,7 @@ import images from 'images'
 import './ProductPage.scss'
 
 export const ProductPage = ({ id }) => {
-  const items = useSelector((state) => state.items)
+  const items = useSelector(selectItems)
   const item = items[id]
 
   if (!item) {

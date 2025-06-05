@@ -6,17 +6,17 @@ exports[`should render Layout component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
+        class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-1odpy5d"
       >
         <aside
-          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
+          class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-1odpy5d"
           style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
         >
           <div
             class="ant-layout-sider-children"
           >
             <ul
-              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
+              class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-1odpy5d"
               data-menu-list="true"
               role="menu"
               tabindex="0"
@@ -129,24 +129,24 @@ exports[`should render Layout component 1`] = `
           </div>
         </aside>
         <div
-          class="ant-layout css-dev-only-do-not-override-19lec04"
+          class="ant-layout css-dev-only-do-not-override-1odpy5d"
         >
           <header
-            class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
+            class="ant-layout-header layout__header css-dev-only-do-not-override-1odpy5d"
           >
             <div>
               Header
             </div>
           </header>
           <main
-            class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
+            class="ant-layout-content layout__content css-dev-only-do-not-override-1odpy5d"
           >
             <div>
               Content
             </div>
           </main>
           <footer
-            class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
+            class="ant-layout-footer layout__footer css-dev-only-do-not-override-1odpy5d"
           />
         </div>
       </div>
@@ -154,17 +154,17 @@ exports[`should render Layout component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-19lec04"
+      class="ant-layout ant-layout-has-sider layout css-dev-only-do-not-override-1odpy5d"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-19lec04"
+        class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger css-dev-only-do-not-override-1odpy5d"
         style="padding-top: 5px; flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;"
       >
         <div
           class="ant-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-19lec04"
+            class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark css-dev-only-do-not-override-1odpy5d"
             data-menu-list="true"
             role="menu"
             tabindex="0"
@@ -277,24 +277,24 @@ exports[`should render Layout component 1`] = `
         </div>
       </aside>
       <div
-        class="ant-layout css-dev-only-do-not-override-19lec04"
+        class="ant-layout css-dev-only-do-not-override-1odpy5d"
       >
         <header
-          class="ant-layout-header layout__header css-dev-only-do-not-override-19lec04"
+          class="ant-layout-header layout__header css-dev-only-do-not-override-1odpy5d"
         >
           <div>
             Header
           </div>
         </header>
         <main
-          class="ant-layout-content layout__content css-dev-only-do-not-override-19lec04"
+          class="ant-layout-content layout__content css-dev-only-do-not-override-1odpy5d"
         >
           <div>
             Content
           </div>
         </main>
         <footer
-          class="ant-layout-footer layout__footer css-dev-only-do-not-override-19lec04"
+          class="ant-layout-footer layout__footer css-dev-only-do-not-override-1odpy5d"
         />
       </div>
     </div>

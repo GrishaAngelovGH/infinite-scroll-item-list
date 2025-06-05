@@ -6,19 +6,19 @@ exports[`should render ProductCatalog component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
+        class="ant-row product-catalog css-dev-only-do-not-override-1odpy5d"
       >
         <div
-          class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
+          class="ant-col ant-col-24 css-dev-only-do-not-override-1odpy5d"
         >
           <div
-            class="ant-row css-dev-only-do-not-override-19lec04"
+            class="ant-row css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
               >
                 <div
                   class="ant-card-cover"
@@ -111,10 +111,10 @@ exports[`should render ProductCatalog component 1`] = `
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
               >
                 <div
                   class="ant-card-cover"
@@ -207,10 +207,10 @@ exports[`should render ProductCatalog component 1`] = `
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
               >
                 <div
                   class="ant-card-cover"
@@ -304,13 +304,13 @@ exports[`should render ProductCatalog component 1`] = `
             </div>
           </div>
           <div
-            class="ant-row css-dev-only-do-not-override-19lec04"
+            class="ant-row css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
               >
                 <div
                   class="ant-card-cover"
@@ -403,10 +403,10 @@ exports[`should render ProductCatalog component 1`] = `
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
               >
                 <div
                   class="ant-card-cover"
@@ -499,10 +499,10 @@ exports[`should render ProductCatalog component 1`] = `
               </div>
             </div>
             <div
-              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+              class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
             >
               <div
-                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+                class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
               >
                 <div
                   class="ant-card-cover"
@@ -601,19 +601,19 @@ exports[`should render ProductCatalog component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="ant-row product-catalog css-dev-only-do-not-override-19lec04"
+      class="ant-row product-catalog css-dev-only-do-not-override-1odpy5d"
     >
       <div
-        class="ant-col ant-col-24 css-dev-only-do-not-override-19lec04"
+        class="ant-col ant-col-24 css-dev-only-do-not-override-1odpy5d"
       >
         <div
-          class="ant-row css-dev-only-do-not-override-19lec04"
+          class="ant-row css-dev-only-do-not-override-1odpy5d"
         >
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
             >
               <div
                 class="ant-card-cover"
@@ -706,10 +706,10 @@ exports[`should render ProductCatalog component 1`] = `
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
             >
               <div
                 class="ant-card-cover"
@@ -802,10 +802,10 @@ exports[`should render ProductCatalog component 1`] = `
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
             >
               <div
                 class="ant-card-cover"
@@ -899,13 +899,13 @@ exports[`should render ProductCatalog component 1`] = `
           </div>
         </div>
         <div
-          class="ant-row css-dev-only-do-not-override-19lec04"
+          class="ant-row css-dev-only-do-not-override-1odpy5d"
         >
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
             >
               <div
                 class="ant-card-cover"
@@ -998,10 +998,10 @@ exports[`should render ProductCatalog component 1`] = `
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
             >
               <div
                 class="ant-card-cover"
@@ -1094,10 +1094,10 @@ exports[`should render ProductCatalog component 1`] = `
             </div>
           </div>
           <div
-            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-19lec04"
+            class="ant-col ant-col-sm-24 ant-col-md-8 css-dev-only-do-not-override-1odpy5d"
           >
             <div
-              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-19lec04"
+              class="ant-card ant-card-bordered product-item css-dev-only-do-not-override-1odpy5d"
             >
               <div
                 class="ant-card-cover"

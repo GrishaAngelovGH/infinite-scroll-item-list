@@ -7,7 +7,7 @@ exports[`should render FilterDrawer component 1`] = `
     <div />
     <div>
       <div
-        class="ant-drawer ant-drawer-left css-dev-only-do-not-override-19lec04 ant-drawer-open"
+        class="ant-drawer ant-drawer-left css-dev-only-do-not-override-1odpy5d ant-drawer-open"
         tabindex="-1"
       >
         <div
@@ -76,7 +76,7 @@ exports[`should render FilterDrawer component 1`] = `
                 Filter By Criteria
               </h3>
               <span
-                class="ant-input-affix-wrapper ant-input-affix-wrapper-lg css-dev-only-do-not-override-19lec04 ant-input-outlined"
+                class="ant-input-affix-wrapper ant-input-affix-wrapper-lg css-dev-only-do-not-override-1odpy5d ant-input-outlined"
               >
                 <span
                   class="ant-input-prefix"
@@ -102,7 +102,7 @@ exports[`should render FilterDrawer component 1`] = `
                   </span>
                 </span>
                 <input
-                  class="ant-input ant-input-lg css-dev-only-do-not-override-19lec04"
+                  class="ant-input ant-input-lg css-dev-only-do-not-override-1odpy5d"
                   placeholder="Search"
                   type="text"
                   value=""
@@ -116,7 +116,7 @@ exports[`should render FilterDrawer component 1`] = `
                 )
               </h3>
               <div
-                class="ant-slider price-filter css-dev-only-do-not-override-19lec04 ant-slider-horizontal ant-slider-with-marks"
+                class="ant-slider price-filter css-dev-only-do-not-override-1odpy5d ant-slider-horizontal ant-slider-with-marks"
               >
                 <div
                   class="ant-slider-rail"
@@ -170,7 +170,7 @@ exports[`should render FilterDrawer component 1`] = `
                 class="status"
               >
                 <span
-                  class="ant-tag ant-tag-has-color css-dev-only-do-not-override-19lec04"
+                  class="ant-tag ant-tag-has-color css-dev-only-do-not-override-1odpy5d"
                   style="background-color: rgb(16, 142, 233);"
                 >
                   <h2>

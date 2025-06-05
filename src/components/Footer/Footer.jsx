@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux'
+import { selectItemValues, selectFavoriteItems } from 'selectors/itemRowsSelector'
 
 import { StarFilled, TagsFilled } from '@ant-design/icons'
 import { Tooltip } from 'antd'
@@ -6,8 +7,8 @@ import { Tooltip } from 'antd'
 import './Footer.scss'
 
 const Footer = () => {
-  const items = useSelector((state) => Object.values(state.items))
-  const favorites = items.filter(v => v.isFavorite)
+  const items = useSelector(selectItemValues)
+  const favorites = useSelector(selectFavoriteItems)
 
   return (
     <div className='footer'>
