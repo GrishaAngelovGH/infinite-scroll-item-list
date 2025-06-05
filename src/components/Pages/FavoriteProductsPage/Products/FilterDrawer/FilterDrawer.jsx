@@ -1,10 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { applyCriteriaFilter, applyPriceFilter } from 'slices/filtersSlice'
 
-import {
-  selectFavoriteItemRowsByFilter,
-  createRows
-} from 'selectors/itemRowsSelector'
+import { selectFavoriteItemRowsByFilter } from 'selectors/itemRowsSelector'
 
 import { SearchOutlined } from '@ant-design/icons'
 import { Drawer, Input, Slider, Tag } from 'antd'
@@ -14,7 +11,7 @@ import './FilterDrawer.scss'
 const FilterDrawer = ({ open, onClose }) => {
   const criteria = useSelector((state) => state.filters.criteria)
   const price = useSelector((state) => state.filters.price)
-  const filteredItemsCount = createRows(useSelector(selectFavoriteItemRowsByFilter)).flat().length
+  const filteredItemsCount = useSelector(selectFavoriteItemRowsByFilter).flat().length
   const dispatch = useDispatch()
 
   const handleSearch = ({ target }) => {

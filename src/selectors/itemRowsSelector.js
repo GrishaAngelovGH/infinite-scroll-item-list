@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect'
 
-export const createRows = items => {
+const createRows = items => {
   let itemsCpy = [...items]
   const rows = []
 
@@ -12,15 +12,15 @@ export const createRows = items => {
   return rows
 }
 
-const selectItems = (state) => state.items
+export const selectItems = (state) => state.items
 const selectFilters = (state) => state.filters
 
-const selectItemValues = createSelector(
+export const selectItemValues = createSelector(
   [selectItems],
   (items) => Object.values(items)
 )
 
-const selectFavoriteItems = createSelector(
+export const selectFavoriteItems = createSelector(
   [selectItemValues],
   (items) => items.filter(item => item.isFavorite)
 )
@@ -39,10 +39,10 @@ const selectFilteredFavoriteItems = createSelector(
 
 export const selectItemRows = createSelector(
   [selectItemValues],
-  (items) => items
+  (items) => createRows(items)
 )
 
 export const selectFavoriteItemRowsByFilter = createSelector(
   [selectFilteredFavoriteItems],
-  (filteredItems) => filteredItems
+  (filteredItems) => createRows(filteredItems)
 )

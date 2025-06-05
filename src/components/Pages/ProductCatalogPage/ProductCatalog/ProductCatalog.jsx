@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { selectItemRows, createRows } from 'selectors/itemRowsSelector'
+import { selectItemRows } from 'selectors/itemRowsSelector'
 
 import { fetchItems } from 'slices/itemsSlice'
 
@@ -11,7 +11,7 @@ import ProductItem from 'components/ProductItem'
 import './ProductCatalog.scss'
 
 const ProductCatalog = () => {
-  const itemRows = createRows(useSelector(selectItemRows))
+  const itemRows = useSelector(selectItemRows)
   const dispatch = useDispatch()
 
   const targetRef = useRef()
@@ -58,8 +58,8 @@ const ProductCatalog = () => {
     <Row className='product-catalog'>
       <Col span={24}>
         {
-          itemRows.map((row, i) => (
-            <Row key={i}>
+          itemRows.map((row) => (
+            <Row key={row[0].id}>
               {
                 row.map(v => {
                   const ref = v.id === lastItemId ? targetRef : null

@@ -6,10 +6,10 @@ exports[`should render ProductPage component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="ant-row product-row css-dev-only-do-not-override-19lec04"
+        class="ant-row product-row css-dev-only-do-not-override-1odpy5d"
       >
         <div
-          class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-19lec04"
+          class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-1odpy5d"
         >
           <img
             src="/src/assets/images/bluetooth-speaker.jpg"
@@ -18,7 +18,7 @@ exports[`should render ProductPage component 1`] = `
             class="summary"
           >
             <span
-              class="ant-tag ant-tag-has-color css-dev-only-do-not-override-19lec04"
+              class="ant-tag ant-tag-has-color css-dev-only-do-not-override-1odpy5d"
               style="background-color: rgb(16, 142, 233);"
             >
               <h1
@@ -41,7 +41,7 @@ exports[`should render ProductPage component 1`] = `
               href="/"
             >
               <button
-                class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                class="ant-btn css-dev-only-do-not-override-1odpy5d ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                 type="button"
               >
                 <span>
@@ -56,10 +56,10 @@ exports[`should render ProductPage component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="ant-row product-row css-dev-only-do-not-override-19lec04"
+      class="ant-row product-row css-dev-only-do-not-override-1odpy5d"
     >
       <div
-        class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-19lec04"
+        class="ant-col product-description ant-col-xs-23 ant-col-md-12 ant-col-lg-12 css-dev-only-do-not-override-1odpy5d"
       >
         <img
           src="/src/assets/images/bluetooth-speaker.jpg"
@@ -68,7 +68,7 @@ exports[`should render ProductPage component 1`] = `
           class="summary"
         >
           <span
-            class="ant-tag ant-tag-has-color css-dev-only-do-not-override-19lec04"
+            class="ant-tag ant-tag-has-color css-dev-only-do-not-override-1odpy5d"
             style="background-color: rgb(16, 142, 233);"
           >
             <h1
@@ -91,7 +91,7 @@ exports[`should render ProductPage component 1`] = `
             href="/"
           >
             <button
-              class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+              class="ant-btn css-dev-only-do-not-override-1odpy5d ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
               type="button"
             >
               <span>
@@ -163,13 +163,13 @@ exports[`should render ProductPage component for non-existent item 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="ant-row product-row css-dev-only-do-not-override-19lec04"
+        class="ant-row product-row css-dev-only-do-not-override-1odpy5d"
       >
         <div
-          class="ant-col ant-col-md-24 css-dev-only-do-not-override-19lec04"
+          class="ant-col ant-col-md-24 css-dev-only-do-not-override-1odpy5d"
         >
           <div
-            class="css-dev-only-do-not-override-19lec04 ant-empty"
+            class="css-dev-only-do-not-override-1odpy5d ant-empty"
           >
             <div
               class="ant-empty-image"
@@ -251,7 +251,7 @@ exports[`should render ProductPage component for non-existent item 1`] = `
                   href="/"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                    class="ant-btn css-dev-only-do-not-override-1odpy5d ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                     type="button"
                   >
                     <span>
@@ -268,13 +268,13 @@ exports[`should render ProductPage component for non-existent item 1`] = `
   </body>,
   "container": <div>
     <div
-      class="ant-row product-row css-dev-only-do-not-override-19lec04"
+      class="ant-row product-row css-dev-only-do-not-override-1odpy5d"
     >
       <div
-        class="ant-col ant-col-md-24 css-dev-only-do-not-override-19lec04"
+        class="ant-col ant-col-md-24 css-dev-only-do-not-override-1odpy5d"
       >
         <div
-          class="css-dev-only-do-not-override-19lec04 ant-empty"
+          class="css-dev-only-do-not-override-1odpy5d ant-empty"
         >
           <div
             class="ant-empty-image"
@@ -356,7 +356,7 @@ exports[`should render ProductPage component for non-existent item 1`] = `
                 href="/"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-19lec04 ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+                  class="ant-btn css-dev-only-do-not-override-1odpy5d ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
                   type="button"
                 >
                   <span>
